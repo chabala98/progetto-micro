@@ -3,7 +3,6 @@
 #include "motors.h"
 #include "leds.h"
 #include <math.h>
-#include <chprintf.h>
 
 #define MOTOR_TIMER_FREQ 100000 // [Hz]
 #define THRESV 650 // This is the speed under which the power save feature is active.
@@ -265,12 +264,10 @@ void right_motor_set_pos(int32_t counter_value){
 }
 
 float rotate_angle(float angle,float orientation){
-	if(angle > 360)
+	if(angle > 0)
 		angle = angle - ((int)(angle/360))*360;
-	else if (angle < -360)
+	else if (angle < 0)
 		angle = angle + ((int)(angle/360))*360;
-	else if (angle == 360 || angle == -360)
-		angle = 0;
 
 	float pos_to_reach  =  DISTANCE_WHEEL_TO_WHEEL * NSTEP_ONE_TURN* M_PI * angle/(360*WHEEL_PERIMETER);
 	float tmp_time = pos_to_reach / CONSTANT_ROTATE_SPEED;
@@ -284,19 +281,14 @@ float rotate_angle(float angle,float orientation){
 	}
 
 	tmp_time = (fabs(tmp_time*1000));
-	chprintf((BaseSequentialStream *)&SD3, "time: %f	\r\n\n", (tmp_time));
 	if(angle!=0)
 		chThdSleepMilliseconds((uint32_t)tmp_time);
 	right_motor_set_speed(HALT);
 	left_motor_set_speed(HALT);
-	if((orientation+angle) > 360)
+	if((orientation+angle) > 0)
 		orientation = (orientation+angle) - ((int)((orientation+angle)/360))*360;
-	else if ((orientation+angle) < -360)
+	else if ((orientation+angle) < 0)
 		orientation = orientation+angle + ((int)((orientation+angle)/360))*360;
-	else if ((((int) orientation) == 360) || (((int) orientation) == -360))
-		orientation = 0;
-	else
-		orientation = angle +orientation;
 	return (orientation);
 
 }

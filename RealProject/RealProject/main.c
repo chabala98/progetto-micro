@@ -159,11 +159,11 @@ int main(void)
 
     /* Infinite loop. */
     //while (1) {
-	/*
+	// /*
     		chThdSleepMilliseconds(10000);
     		robot.max.x = adjust_orientation() + DIAMETER_ROBOT/2;
     		robot.position.x = robot.max.x;
-    		robot.orientation = 0;
+    		robot.orientation = 180;
     		robot.orientation = rotate_angle(90,robot.orientation);
     		robot.max.y = retrieve_TOF_measure(robot.max.y,3)+ DIAMETER_ROBOT/2;
     		robot.position.y = robot.max.y;
@@ -174,12 +174,12 @@ int main(void)
     		robot.orientation = rotate_angle(90,robot.orientation);
     		chprintf((BaseSequentialStream *)&SD3, "IN MAIN: orientation = %f   x = %d   y = %d",robot.orientation,robot.max.x,robot.max.y);
     		chprintf((BaseSequentialStream *)&SD3, "IN MAIN: coord x = %d   coord y = %d ",robot.position.x,robot.position.y);
-    		move_robot(robot.position.x,robot.position.y,robot.orientation);
+    		//move_robot(robot.position.x,robot.position.y,robot.orientation);
     		move_robot((uint16_t)(robot.max.x/2), (uint16_t)(robot.max.y/2),0);
 
     		//uint16_t current_dist,next_dist,prev_dist;
-    		 */
-
+    		// */
+/*
     		robot.position.x = 0;
     		robot.orientation = 0;
     		robot.max.x = 0;
@@ -189,13 +189,19 @@ int main(void)
     		chThdSleepMilliseconds(10000);
     		move_robot(400,400,0);
     		chThdSleepMilliseconds(10000);
+    		robot.position.x = 0;
+    		robot.position.y = 0;
        	move_robot(-400,400,0);
         	chThdSleepMilliseconds(10000);
+    		robot.position.x = 0;
+    		robot.position.y = 0;
        	move_robot(-400,-400,0);
         	chThdSleepMilliseconds(10000);
+    		robot.position.x = 0;
+    		robot.position.y = 0;
    		move_robot(400,-400,0);
     		chThdSleepMilliseconds(10000);
-
+*/
     		//chprintf((BaseSequentialStream *)&SD3, "angle-robotorientation: %f	\r\n\n", (robot.orientation));
     		//chThdSleepMilliseconds(1000);
 
