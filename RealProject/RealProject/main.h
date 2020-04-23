@@ -17,6 +17,7 @@ extern "C" {
 #define ROTATION_THRESHOLD		10
 #define ROTATION_COEFF			2 
 #define PXTOCM					1570.0f //experimental value
+#define CMTOMM					10 //experimental value
 #define GOAL_DISTANCE 			10.0f
 #define MAX_DISTANCE 			25.0f
 #define ERROR_THRESHOLD			0.1f	//[cm] because of the noise of the camera
@@ -25,17 +26,6 @@ extern "C" {
 #define MAX_SUM_ERROR 			(MOTOR_SPEED_LIMIT/KI)
 #define DIAMETER_ROBOT 			70 //mm
 
-typedef struct {
-	uint16_t x;
-	uint16_t y;
-} Position;
-
-typedef struct {
-	Position position;
-	Position max;
-    float orientation;
-
-} Robot;
 
 
 

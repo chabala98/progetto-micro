@@ -42,7 +42,7 @@ build/obj/main.o: main.c \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdint.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_intsup.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdbool.h \
- chconf.h \
+ ../../lib/e-puck2_main-processor/src/chconf.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chsystypes.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore.h \
@@ -145,9 +145,22 @@ build/obj/main.o: main.c \
  ../../lib/e-puck2_main-processor/src/parameter/parameter.h \
  ../../lib/e-puck2_main-processor/src/motors.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h \
+ ../../lib/e-puck2_main-processor/src/audio/microphone.h \
+ ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h \
+ audio_processing.h fft.h \
+ ../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/arm_math.h \
+ ../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/core_cm4.h \
+ ../../lib/e-puck2_main-processor/src/spi_comm.h \
+ ../../lib/e-puck2_main-processor/src/leds.h \
  ../../lib/e-puck2_main-processor/src/sensors/imu.h \
  ../../lib/e-puck2_main-processor/src/sensors/mpu9250.h \
  ../../lib/e-puck2_main-processor/src/sensors/mpu9250_registers.h \
+ ../../lib/e-puck2_main-processor/src/cmd.h \
+ ../../lib/e-puck2_main-processor/src/config_flash_storage.h \
+ ../../lib/e-puck2_main-processor/src/parameter/parameter.h \
+ ../../lib/e-puck2_main-processor/src/exti.h \
+ ../../lib/e-puck2_main-processor/src/i2c_bus.h robotmvmts.h \
+ process_image.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/VL53L0X.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/vl53l0x_api.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/vl53l0x_api_strings.h \
@@ -157,15 +170,7 @@ build/obj/main.o: main.c \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/../../core/inc/vl53l0x_def.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h \
- ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h \
- ../../lib/e-puck2_main-processor/src/cmd.h \
- ../../lib/e-puck2_main-processor/src/config_flash_storage.h \
- ../../lib/e-puck2_main-processor/src/parameter/parameter.h \
- ../../lib/e-puck2_main-processor/src/exti.h \
- ../../lib/e-puck2_main-processor/src/i2c_bus.h \
- ../../lib/e-puck2_main-processor/src/communication.h \
- ../../lib/e-puck2_main-processor/src/cmp_mem_access/cmp_mem_access.h \
- ../../lib/e-puck2_main-processor/src/cmp/cmp.h
+ ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h
 
 /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h:
 
@@ -253,7 +258,7 @@ build/obj/main.o: main.c \
 
 /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdbool.h:
 
-chconf.h:
+../../lib/e-puck2_main-processor/src/chconf.h:
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h:
 
@@ -463,11 +468,41 @@ main.h:
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h:
 
+../../lib/e-puck2_main-processor/src/audio/microphone.h:
+
+../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h:
+
+audio_processing.h:
+
+fft.h:
+
+../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/arm_math.h:
+
+../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/core_cm4.h:
+
+../../lib/e-puck2_main-processor/src/spi_comm.h:
+
+../../lib/e-puck2_main-processor/src/leds.h:
+
 ../../lib/e-puck2_main-processor/src/sensors/imu.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/mpu9250.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/mpu9250_registers.h:
+
+../../lib/e-puck2_main-processor/src/cmd.h:
+
+../../lib/e-puck2_main-processor/src/config_flash_storage.h:
+
+../../lib/e-puck2_main-processor/src/parameter/parameter.h:
+
+../../lib/e-puck2_main-processor/src/exti.h:
+
+../../lib/e-puck2_main-processor/src/i2c_bus.h:
+
+robotmvmts.h:
+
+process_image.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/VL53L0X.h:
 
@@ -488,19 +523,3 @@ main.h:
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h:
-
-../../lib/e-puck2_main-processor/src/cmd.h:
-
-../../lib/e-puck2_main-processor/src/config_flash_storage.h:
-
-../../lib/e-puck2_main-processor/src/parameter/parameter.h:
-
-../../lib/e-puck2_main-processor/src/exti.h:
-
-../../lib/e-puck2_main-processor/src/i2c_bus.h:
-
-../../lib/e-puck2_main-processor/src/communication.h:
-
-../../lib/e-puck2_main-processor/src/cmp_mem_access/cmp_mem_access.h:
-
-../../lib/e-puck2_main-processor/src/cmp/cmp.h:

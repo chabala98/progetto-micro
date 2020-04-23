@@ -13,7 +13,7 @@ build/obj/po8030.o: ../../lib/e-puck2_main-processor/src/camera/po8030.c \
  ../../lib/e-puck2_main-processor/ChibiOS//os/hal/osal/rt/osal.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/ch.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/compilers/GCC/chtypes.h \
- chconf.h \
+ ../../lib/e-puck2_main-processor/src/chconf.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chsystypes.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore.h \
@@ -133,7 +133,7 @@ build/obj/po8030.o: ../../lib/e-puck2_main-processor/src/camera/po8030.c \
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/compilers/GCC/chtypes.h:
 
-chconf.h:
+../../lib/e-puck2_main-processor/src/chconf.h:
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h:
 
