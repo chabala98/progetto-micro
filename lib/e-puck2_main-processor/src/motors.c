@@ -286,8 +286,8 @@ float rotate_angle(float angle,float orientation){
 	}
 
 	tmp_time = (fabs(tmp_time*1000));
-	if((int)angle != 0)
-		chThdSleepMilliseconds((uint32_t)tmp_time);
+	if((uint32_t)tmp_time != 0)
+		chThdSleepMilliseconds(tmp_time);
 	right_motor_set_speed(HALT);
 	left_motor_set_speed(HALT);
 	if((orientation+angle) > 0)
@@ -368,6 +368,8 @@ void motors_init(void)
     };
     pwmStart(&PWMD4, &pwmcfg_left_motor);
     pwmEnablePeriodicNotification(&PWMD4); // PWM general interrupt at the beginning of the period to handle motor steps.
+    right_motor_set_speed(HALT);
+    	left_motor_set_speed(HALT);
 
 }
 

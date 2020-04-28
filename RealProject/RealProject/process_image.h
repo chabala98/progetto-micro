@@ -2,15 +2,7 @@
 #define PROCESS_IMAGE_H
 
 
-#define	NOT_RIGHT_COLOR	60
-#define	YIELD_DISTINGUISH_COLOR	200
-#define	NB_GOALS		3
-#define	RED		0
-#define	BLUE 	1
-#define	GREEN	2
-#define	WHITE	3
-#define	COLOR_NOT_ATTRIBUTED		4
-#define	OFF						5
+
 
 
 uint16_t get_line_width(uint8_t color);

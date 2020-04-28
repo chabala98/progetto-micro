@@ -134,10 +134,7 @@ build/obj/robotmvmts.o: robotmvmts.c \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/string.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/math.h \
  ../../lib/e-puck2_main-processor/src/memory_protection.h \
- ../../lib/e-puck2_main-processor/src/usbcfg.h \
- ../../lib/e-puck2_main-processor/src/communication.h \
- ../../lib/e-puck2_main-processor/src/cmp_mem_access/cmp_mem_access.h \
- ../../lib/e-puck2_main-processor/src/cmp/cmp.h robotmvmts.h main.h \
+ ../../lib/e-puck2_main-processor/src/usbcfg.h robotmvmts.h main.h \
  ../../lib/e-puck2_main-processor/src/camera/dcmi_camera.h \
  ../../lib/e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h \
  ../../lib/e-puck2_main-processor/ChibiOS_ext/os/hal/include/../ports/STM32/STM32F4xx/dcmi_lld.h \
@@ -158,7 +155,10 @@ build/obj/robotmvmts.o: robotmvmts.c \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/../../core/inc/vl53l0x_def.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h \
- process_image.h ../../lib/e-puck2_main-processor/src/leds.h
+ process_image.h audio_processing.h \
+ ../../lib/e-puck2_main-processor/src/leds.h \
+ ../../lib/e-puck2_main-processor/src/audio/microphone.h \
+ ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h
 
 ../../lib/e-puck2_main-processor/src/motors.h:
 
@@ -434,12 +434,6 @@ mcuconf.h:
 
 ../../lib/e-puck2_main-processor/src/usbcfg.h:
 
-../../lib/e-puck2_main-processor/src/communication.h:
-
-../../lib/e-puck2_main-processor/src/cmp_mem_access/cmp_mem_access.h:
-
-../../lib/e-puck2_main-processor/src/cmp/cmp.h:
-
 robotmvmts.h:
 
 main.h:
@@ -486,4 +480,10 @@ main.h:
 
 process_image.h:
 
+audio_processing.h:
+
 ../../lib/e-puck2_main-processor/src/leds.h:
+
+../../lib/e-puck2_main-processor/src/audio/microphone.h:
+
+../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h:

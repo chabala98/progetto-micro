@@ -152,9 +152,6 @@ build/obj/main.o: main.c \
  ../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/core_cm4.h \
  ../../lib/e-puck2_main-processor/src/spi_comm.h \
  ../../lib/e-puck2_main-processor/src/leds.h \
- ../../lib/e-puck2_main-processor/src/sensors/imu.h \
- ../../lib/e-puck2_main-processor/src/sensors/mpu9250.h \
- ../../lib/e-puck2_main-processor/src/sensors/mpu9250_registers.h \
  ../../lib/e-puck2_main-processor/src/cmd.h \
  ../../lib/e-puck2_main-processor/src/config_flash_storage.h \
  ../../lib/e-puck2_main-processor/src/parameter/parameter.h \
@@ -483,12 +480,6 @@ fft.h:
 ../../lib/e-puck2_main-processor/src/spi_comm.h:
 
 ../../lib/e-puck2_main-processor/src/leds.h:
-
-../../lib/e-puck2_main-processor/src/sensors/imu.h:
-
-../../lib/e-puck2_main-processor/src/sensors/mpu9250.h:
-
-../../lib/e-puck2_main-processor/src/sensors/mpu9250_registers.h:
 
 ../../lib/e-puck2_main-processor/src/cmd.h:
 

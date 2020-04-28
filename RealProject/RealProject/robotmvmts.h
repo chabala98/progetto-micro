@@ -12,12 +12,7 @@
 #include <hal.h>
 
 
-#define STEP_POSITION 50
-#define DIST_CAMERA_MEASURE 160
-#define SECURE_DIST 100
-#define SIN10CTE 0.17365
-#define COS10CTE 0.984808
-#define TAN_CAMERA_APERTURE 0.42922
+
 
 
 
@@ -42,9 +37,11 @@ typedef struct {
     } goal_nbrs;
     Position position;
 	uint8_t color;
+	float orientation;
 } Goal;
 
-void init_identify_world(void);
+
+void robotmvmts_start(void);
 
 
 

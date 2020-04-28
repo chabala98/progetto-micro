@@ -157,6 +157,7 @@ static THD_FUNCTION(CaptureImage, arg) {
 		wait_image_ready();
 		//signals an image has been captured
 		chBSemSignal(&image_ready_sem);
+
     }
 }
 uint8_t determine_goals(uint8_t *img_buff_ptr, uint8_t *image){
@@ -189,17 +190,17 @@ uint8_t determine_goals(uint8_t *img_buff_ptr, uint8_t *image){
 
 
 
-static THD_WORKING_AREA(waProcessImage, 1024);
-static THD_FUNCTION(ProcessImage, arg) {
+//static THD_WORKING_AREA(waProcessImage, 1024);
+//static THD_FUNCTION(ProcessImage, arg) {
 
-    chRegSetThreadName(__FUNCTION__);
-    (void)arg;
+    //chRegSetThreadName(__FUNCTION__);
+    //(void)arg;
 
 
 
 	//bool send_to_computer = true;
 
-    while(1){
+    //while(1){
     	//waits until an image has been captured
 
 		//chprintf((BaseSequentialStream *)&SD3, "colore: %d	\r\n\n",colore);
@@ -221,8 +222,8 @@ static THD_FUNCTION(ProcessImage, arg) {
 		//}
 		//invert the bool
 		//send_to_computer = !send_to_computer;
-    }
-}
+   // }
+//}
 
 uint16_t get_line_width(uint8_t color){
 	static uint8_t *img_buff_ptr;
@@ -276,6 +277,6 @@ uint8_t get_color_detected(void){
 }
 
 void process_image_start(void){
-	chThdCreateStatic(waProcessImage, sizeof(waProcessImage), NORMALPRIO, ProcessImage, NULL);
+	//chThdCreateStatic(waProcessImage, sizeof(waProcessImage), NORMALPRIO, ProcessImage, NULL);
 	chThdCreateStatic(waCaptureImage, sizeof(waCaptureImage), NORMALPRIO, CaptureImage, NULL);
 }

@@ -8,18 +8,19 @@
 #include "hal.h"
 #include "memory_protection.h"
 #include <usbcfg.h>
-#include "communication.h"
 #include <robotmvmts.h>
 #include <main.h>
 #include "sensors/VL53L0X/VL53L0X.h"
 #include "process_image.h"
+#include "audio_processing.h"
 #include "leds.h"
+#include <audio/microphone.h>
 
 /***************************INTERNAL FUNCTIONS************************************/
 static Robot robot;
 static Goal goals[NB_GOALS];
-
-
+static Position desired_position;
+static float desired_goal_orientation;
 
 
 uint16_t retrieve_TOF_measure(uint8_t nbr_of_measures){
@@ -32,20 +33,19 @@ uint16_t retrieve_TOF_measure(uint8_t nbr_of_measures){
 	return dist;
 }
 
-
-void adjust_orientation(){
+void adjust_orientation(void){
 	uint16_t dist1=0,dist2=0;
 	float angle = 0;
 	dist1 = retrieve_TOF_measure(5);
-	rotate_angle(10,robot.orientation);
+	rotate_angle(20,robot.orientation);
 	dist2 = retrieve_TOF_measure(5);
 	// we calculate the denominator so that we don't do it repeatidly during the function (less calculation time in total)
-	float denominator = sqrtf((dist1*dist1)-(float)(2*(float)dist1*(float)dist2*COS10CTE)+dist2*dist2);
-	angle = atan2f((dist1-(float)((dist2*COS10CTE))/denominator), (-dist2*SIN10CTE)/denominator) *180/M_PI;
+	float denominator = sqrtf((dist1*dist1)-(2*dist1*dist2*COS20CTE)+dist2*dist2);
+	angle = atan2f(((dist1-(dist2*COS20CTE))/denominator), (-dist2*SIN20CTE)/denominator) *180/M_PI;
 	if(angle > 0)
-		rotate_angle(-10-angle+180,robot.orientation);
+		rotate_angle(-20-angle+180,robot.orientation);
 	else
-		rotate_angle(-10-angle-180,robot.orientation);
+		rotate_angle(-20-angle-180,robot.orientation);
 	//chprintf((BaseSequentialStream *)&SD3, "angle:  %f	\r\n\n", angle);
 	/*
 	bool adjusted = false;
@@ -104,17 +104,15 @@ void adjust_orientation(){
 	*/
 }
 
-void move_robot(uint16_t desired_x, uint16_t desired_y,float desired_orientation,bool remeasure_pos){
+void move_robot(uint16_t desired_x, uint16_t desired_y,float desired_orientation,bool remeasure_pos, bool step_mvmt){
 	//chprintf((BaseSequentialStream *)&SD3, "desired x: %d  desired y: %d	\r\n\n", desired_x, desired_y);
 	if(remeasure_pos){
-		move_robot(robot.position.x,robot.position.y,180,false);
+		move_robot(robot.position.x,robot.position.y,180,false,false);
 		adjust_orientation();
 		robot.orientation = 180;
-		robot.position.x = retrieve_TOF_measure(10);
-		move_robot(robot.position.x,robot.position.y,-90,false);
-		adjust_orientation();
-		robot.orientation = -90;
-		robot.position.y = retrieve_TOF_measure(10);
+		robot.position.x = retrieve_TOF_measure(10)+DIAMETER_ROBOT/2;
+		move_robot(robot.position.x,robot.position.y,-90,false,false);
+		robot.position.y = retrieve_TOF_measure(10)+DIAMETER_ROBOT/2;
 	}
 
 	int16_t delta_x = desired_x-robot.position.x;
@@ -125,9 +123,8 @@ void move_robot(uint16_t desired_x, uint16_t desired_y,float desired_orientation
 	//static int i = 0;
 	if(delta_x == 0 && delta_y == 0); // @suppress("Suspicious semicolon")
 	else{
-		if(delta_x != 0){
+		if(delta_x != 0)
 			angle= atanf((float)((float)delta_y/(float)delta_x))*180/M_PI;
-		}
 
 		//chprintf((BaseSequentialStream *)&SD3, "angle: %f	\r\n\n", angle);
 		//chprintf((BaseSequentialStream *)&SD3, "angle-robotorientation: %f	\r\n\n", (angle-robot.orientation));
@@ -150,18 +147,26 @@ void move_robot(uint16_t desired_x, uint16_t desired_y,float desired_orientation
 
 		//chprintf((BaseSequentialStream *)&SD3, "distance : %f \r\n\n",distance);
 		distance = (float)(sqrtf(((delta_x*delta_x)+(delta_y*delta_y))));
+		if(step_mvmt && distance > STEP_POSITION)
+			distance = STEP_POSITION;
 		//chprintf((BaseSequentialStream *)&SD3, "distance: %f	\r\n\n", distance);
 		//chprintf((BaseSequentialStream *)&SD3, " %d	\r\n\n", i);
 		move(distance);
 	}
-	chprintf((BaseSequentialStream *)&SD3, "angle: %f , deltax: %d,  deltay: %d	\r\n\n", angle,delta_x,delta_y);
+	//chprintf((BaseSequentialStream *)&SD3, "angle: %f , deltax: %d,  deltay: %d	\r\n\n", angle,delta_x,delta_y);
 
 	//chprintf((BaseSequentialStream *)&SD3, "IN MOVE ROBOT delta x = %d, delta y = %d, angle: %f	\r\n\n",delta_x,delta_y, angle);
 	//chprintf((BaseSequentialStream *)&SD3, "INT MOVE ROBOT orientation = %f   x = %d    y = %d"  ,robot.orientation,robot.max.x,robot.max.y);
-	robot.position.x = desired_x;
-	robot.position.y = desired_y;
-	robot.orientation = rotate_angle(0,robot.orientation); //initilizazione
-	robot.orientation = rotate_angle(desired_orientation-robot.orientation,robot.orientation);
+	if(step_mvmt && distance == STEP_POSITION){
+		robot.position.x += distance*cosf(robot.orientation*M_PI/180);
+		robot.position.y += distance*sinf(robot.orientation*M_PI/180);
+	}
+	else{
+		robot.position.x = desired_x;
+		robot.position.y = desired_y;
+		robot.orientation = rotate_angle(0,robot.orientation); //initilizazione
+		robot.orientation = rotate_angle(desired_orientation-robot.orientation,robot.orientation);
+	}
 }
 	/***************************END INTERNAL FUNCTIONS************************************/
 uint8_t chose_color_to_analyse(uint8_t goal_color){
@@ -173,7 +178,6 @@ uint8_t chose_color_to_analyse(uint8_t goal_color){
 	}
 }
 
-
 void attribute_goal(void){
 	//AGGIUSTARE LE ORIENTAZIONI
 	uint8_t color_to_analyse;
@@ -184,7 +188,7 @@ void attribute_goal(void){
 	//SCAN FIRST WALL
 	uint8_t i = FIRST_GOAL;
 	bool identified_goal = false;
-	move_robot(SECURE_DIST,DIST_CAMERA_MEASURE,-90,true);
+	move_robot(SECURE_DIST,DIST_CAMERA_MEASURE,-90,true,false);
 	chThdSleepMilliseconds(1000);
 	while(!identified_goal){
 		chThdSleepMilliseconds(500);
@@ -193,7 +197,7 @@ void attribute_goal(void){
 		else if((robot.position.x + STEP_POSITION) >= (robot.max.x - SECURE_DIST))
 			break;
 		else
-			move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE,-90,false);
+			move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE,-90,false,false);
 		chThdSleepMilliseconds(1000);
 	}
 	goals[i].color = get_color_detected();
@@ -201,19 +205,21 @@ void attribute_goal(void){
 	if(goals[i].color == WHITE)
 		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	else{
+		move_robot(robot.position.x + 20, DIST_CAMERA_MEASURE,-90,false,false);
 		light_rgb_led(goals[i].color);
 		color_to_analyse = chose_color_to_analyse(goals[i].color);
-		while(!(get_line_width(color_to_analyse) >0)){
-			move_robot(robot.position.x, robot.position.y + STEP_POSITION,-90,true);
+		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+			move_robot(robot.position.x, robot.position.y + STEP_POSITION,-90,true,false);
 			chThdSleepMilliseconds(500);
 		}
 		line_position = get_line_position();
 		//robot.position.y = retrieve_TOF_measure(10);
 		dist_to_move = robot.position.y*TAN_CAMERA_APERTURE*(line_position-320)/320;
-		move_robot(robot.position.x - dist_to_move,robot.position.y,-90,true);
+		move_robot(robot.position.x - dist_to_move,robot.position.y,-90,true,false);
 		chThdSleepMilliseconds(5000);
-		goals[i].position.x = robot.position.x;
-		goals[i].position.y = 0;
+		goals[i].position.x = robot.position.x ;
+		goals[i].position.y = DIAMETER_ROBOT / 2;
+		goals[i].orientation = robot.orientation;
 		i++;
 		light_rgb_led(OFF);
 	}
@@ -222,7 +228,7 @@ void attribute_goal(void){
 
     	//SCAN SECOND WALL
     	identified_goal = false;
-    	move_robot(robot.max.x - DIST_CAMERA_MEASURE,SECURE_DIST,0,true);
+    	move_robot(robot.max.x - DIST_CAMERA_MEASURE,SECURE_DIST,0,true,false);
     	chThdSleepMilliseconds(1000);
     	while(!identified_goal){
     		chThdSleepMilliseconds(500);
@@ -232,7 +238,7 @@ void attribute_goal(void){
     		else if((robot.position.y + STEP_POSITION) >= (robot.max.y - SECURE_DIST))
     			break;
     		else
-    			move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + STEP_POSITION,0,false);
+    			move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + STEP_POSITION,0,false,false);
     		chThdSleepMilliseconds(1000);
     	}
     	goals[i].color = get_color_detected();
@@ -241,26 +247,29 @@ void attribute_goal(void){
     	if(goals[i].color == WHITE)
     		goals[i].color = COLOR_NOT_ATTRIBUTED;
     	else{
+    		move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + 20,0,false,false);
     		light_rgb_led(goals[i].color);
     		color_to_analyse = chose_color_to_analyse(goals[i].color);
-    		while(!(get_line_width(color_to_analyse) > 0)){
-    			move_robot(robot.position.x - STEP_POSITION, robot.position.y,0,true);
+    		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+    			move_robot(robot.position.x - STEP_POSITION, robot.position.y,0,true,false);
+    			adjust_orientation();
     			chThdSleepMilliseconds(500);
     		}
     		line_position = get_line_position();
     		//robot.position.x = robot.max.x-retrieve_TOF_measure(10);
     		dist_to_move = (robot.max.x-robot.position.x)*TAN_CAMERA_APERTURE*(line_position-320)/320;
-    		move_robot(robot.position.x ,robot.position.y-dist_to_move,0,true);
+    		move_robot(robot.position.x ,robot.position.y-dist_to_move,0,true,false);
     		chThdSleepMilliseconds(5000);
-    		goals[i].position.x = robot.max.x;
+    		goals[i].position.x = robot.max.x - DIAMETER_ROBOT / 2;
     		goals[i].position.y = robot.position.y;
+    		goals[i].orientation = robot.orientation;
     		i++;
     		light_rgb_led(OFF);
     	}
 
     //SCAN THIRD GOAL
  	identified_goal = false;
- 	move_robot((robot.max.x - SECURE_DIST),(robot.max.y - DIST_CAMERA_MEASURE),90,true);
+ 	move_robot((robot.max.x - SECURE_DIST),(robot.max.y - DIST_CAMERA_MEASURE),90,true,false);
  	chThdSleepMilliseconds(1000);
  	while(!identified_goal){
  		chThdSleepMilliseconds(500);
@@ -270,7 +279,7 @@ void attribute_goal(void){
  		else if((robot.position.x - STEP_POSITION) <= SECURE_DIST)
  			break;
  		else
- 			move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE),90,false);
+ 			move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE),90,false,false);
  		chThdSleepMilliseconds(1000);
  	}
  	goals[i].color = get_color_detected();
@@ -279,19 +288,21 @@ void attribute_goal(void){
  	if(goals[i].color == WHITE)
  		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	else{
+		move_robot(robot.position.x-20,(robot.max.y - DIST_CAMERA_MEASURE),90,false,false);
 		light_rgb_led(goals[i].color);
 		color_to_analyse = chose_color_to_analyse(goals[i].color);
-		while(!(get_line_width(color_to_analyse) > 0)){
-			move_robot(robot.position.x, robot.position.y-STEP_POSITION,90,true);
+		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+			move_robot(robot.position.x, robot.position.y-STEP_POSITION,90,true,false);
 			chThdSleepMilliseconds(500);
 		}
 		line_position = get_line_position();
 		//robot.position.y = robot.max.y - retrieve_TOF_measure(10);
 		dist_to_move = (robot.max.y-robot.position.y)*TAN_CAMERA_APERTURE*(line_position-320)/320;
-		move_robot(robot.position.x + dist_to_move ,robot.position.y,90,true);
+		move_robot(robot.position.x + dist_to_move ,robot.position.y,90,true,false);
 		chThdSleepMilliseconds(5000);
 		goals[i].position.x = robot.position.x;
-		goals[i].position.y = robot.max.y;
+		goals[i].position.y = robot.max.y - DIAMETER_ROBOT / 2;
+		goals[i].orientation = robot.orientation;
 		i++;
 		light_rgb_led(OFF);
 	}
@@ -300,7 +311,7 @@ void attribute_goal(void){
   //SCAN FOURTH WALL
   if(i == THIRD_GOAL){
 	 	identified_goal = false;
-	 	move_robot(DIST_CAMERA_MEASURE,(robot.max.y - SECURE_DIST),180,true);
+	 	move_robot(DIST_CAMERA_MEASURE,(robot.max.y - SECURE_DIST),180,true,false);
 	 	chThdSleepMilliseconds(1000);
 	 	while(!identified_goal){
 	 		chThdSleepMilliseconds(500);
@@ -310,32 +321,39 @@ void attribute_goal(void){
 	 		else if((robot.position.y - STEP_POSITION) <= SECURE_DIST)
 	 			break;
 	 		else
-	 			move_robot(DIST_CAMERA_MEASURE, (robot.position.y - STEP_POSITION),180,false);
+	 			move_robot(DIST_CAMERA_MEASURE, (robot.position.y - STEP_POSITION),180,false,false);
 	 		chThdSleepMilliseconds(1000);
 	 	}
 	 	goals[i].color = get_color_detected();
-	 	light_rgb_led(goals[i].color);
-	 	color_to_analyse = chose_color_to_analyse(goals[i].color);
-		while(!(get_line_width(color_to_analyse) > 0)){
-			move_robot(robot.position.x + STEP_POSITION, robot.position.y,180,true);
-			chThdSleepMilliseconds(500);
-		}
-		line_position = get_line_position();
-		//robot.position.y = retrieve_TOF_measure(10);
-		dist_to_move = robot.position.y*TAN_CAMERA_APERTURE*(line_position-320)/320;
-		move_robot(robot.position.x ,robot.position.y+dist_to_move,180,true);
-		chThdSleepMilliseconds(5000);
-		goals[i].position.x = 0;
-		goals[i].position.y = robot.position.y;
-		i++;
-		light_rgb_led(OFF);
-  }
+	 	if(goals[i].color == WHITE)
+	 		goals[i].color = COLOR_NOT_ATTRIBUTED;
+	 	else{
+	 		move_robot(DIST_CAMERA_MEASURE,(robot.max.y - 20),180,true,false);
+			light_rgb_led(goals[i].color);
+			color_to_analyse = chose_color_to_analyse(goals[i].color);
+			while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+				move_robot(robot.position.x + STEP_POSITION, robot.position.y,180,true,false);
+				chThdSleepMilliseconds(500);
+			}
+			line_position = get_line_position();
+			//robot.position.y = retrieve_TOF_measure(10);
+			dist_to_move = robot.position.y*TAN_CAMERA_APERTURE*(line_position-320)/320;
+			move_robot(robot.position.x ,robot.position.y+dist_to_move,180,true,false);
+			chThdSleepMilliseconds(5000);
+			goals[i].position.x = DIAMETER_ROBOT / 2;
+			goals[i].position.y = robot.position.y;
+			goals[i].orientation = robot.orientation;
+			i++;
+			light_rgb_led(OFF);
+	 	}
 
 
+  	  }
 }
 
 void determine_world_dimension(uint8_t nbr_of_measures){
 	adjust_orientation();
+	chThdSleepMilliseconds(5000);
 	robot.max.x =  retrieve_TOF_measure(nbr_of_measures) + DIAMETER_ROBOT/2;
 	robot.position.x = robot.max.x;
 	robot.orientation = 180;
@@ -347,29 +365,72 @@ void determine_world_dimension(uint8_t nbr_of_measures){
 	robot.orientation = rotate_angle(90,robot.orientation);
 	robot.max.y += retrieve_TOF_measure(nbr_of_measures)+ DIAMETER_ROBOT/2;
 	robot.orientation = rotate_angle(90,robot.orientation);
-	move_robot(robot.position.x,robot.position.y,robot.orientation,false);
-	move_robot((robot.max.x/2), (robot.max.y/2),0,false);
+	move_robot(robot.position.x,robot.position.y,robot.orientation,false,false);
+	move_robot((robot.max.x/2), (robot.max.y/2),0,false,false);
 	chprintf((BaseSequentialStream *)&SD3, "dimensioni x: %d   e y : %d	\r\n\n",robot.max.x,robot.max.y);
 
 
 }
+void manage_desired_goal(void){
+	int8_t des_goal = get_goal_destination();
+	switch(des_goal){
+		case RED:
+			desired_position = goals[RED].position;
+			desired_goal_orientation = goals[RED].orientation;
+			break;
+		case BLUE:
+			desired_position = goals[BLUE].position;
+			desired_goal_orientation = goals[BLUE].orientation;
+			break;
+		case GREEN:
+			desired_position = goals[GREEN].position;
+			desired_goal_orientation = goals[GREEN].orientation;
+			break;
+	}
 
+}
 
+void order_goals(void){
+	Goal tmp;
+	for(uint8_t i = FIRST_GOAL; i < THIRD_GOAL ; i++){
+		switch(goals[i].color){
+			case RED:
+				if(i != FIRST_GOAL){
+					tmp = goals[FIRST_GOAL];
+					goals[FIRST_GOAL] = goals[i];
+					goals[i] = tmp;
+					chprintf((BaseSequentialStream *)&SD3, "ho ordinato il ROSSO	\r\n\n");
+				}
+				break;
+			case BLUE:
+				if(i != SECOND_GOAL){
+					tmp = goals[SECOND_GOAL];
+					goals[SECOND_GOAL] = goals[i];
+					goals[i] = tmp;
+					chprintf((BaseSequentialStream *)&SD3, "ho ordinato il BLU	\r\n\n");
+				}
+				break;
+			case GREEN:
+				if(i != THIRD_GOAL){
+					tmp = goals[THIRD_GOAL];
+					goals[THIRD_GOAL] = goals[i];
+					goals[i] = tmp;
+					chprintf((BaseSequentialStream *)&SD3, "ho ordinato il VERDE	\r\n\n");
+				}
+				break;
+		}
+	}
+}
 
-
-
-
-
-
-	/***************************EXTERNAL FUNCTIONS************************************/
-	void init_identify_world(void){
+void init_identify_world(void){
+		//mi da il tempo di piazzarlo nell mondo
 		chThdSleepMilliseconds(5000);
 		robot.orientation = 0;
-		determine_world_dimension(3);
-		move_robot(robot.position.x,robot.position.y,robot.orientation,false);
 		determine_world_dimension(20);
+		move_robot(robot.position.x,robot.position.y,robot.orientation,false,false);
+		//determine_world_dimension(20);
 		//DETERMINARE LE PORTE
-		chThdSleepMilliseconds(2000);
+		//chThdSleepMilliseconds(2000);
 		attribute_goal();
 		for(int i=0; i<3;i++){
 			switch(goals[i].color){
@@ -393,8 +454,56 @@ void determine_world_dimension(uint8_t nbr_of_measures){
 			}
 		}
 
-
-
 	}
 
+static THD_WORKING_AREA(waGoingtoGoals, 1024);
+static THD_FUNCTION(GoingtoGoals, arg) {
+
+    chRegSetThreadName(__FUNCTION__);
+    (void)arg;
+    init_identify_world();
+    order_goals();
+    chprintf((BaseSequentialStream *)&SD3, "BANG BANG	\r\n\n");
+	for(int i=0; i<3;i++){
+		switch(goals[i].color){
+		case RED:
+			chprintf((BaseSequentialStream *)&SD3, "Porta %d colore: ROSSO	\r\n\n",i);
+			chprintf((BaseSequentialStream *)&SD3, "posizione porta: x:%d		y:%d	\r\n\n",goals[i].position.x,goals[i].position.y);
+			break;
+		case GREEN:
+			chprintf((BaseSequentialStream *)&SD3, "Porta %d colore: VERDE	\r\n\n",i);
+			chprintf((BaseSequentialStream *)&SD3, "posizione porta: x:%d		y:%d	\r\n\n",goals[i].position.x,goals[i].position.y);
+			break;
+		case BLUE:
+			chprintf((BaseSequentialStream *)&SD3, "Porta %d colore: BLU	\r\n\n",i);
+			chprintf((BaseSequentialStream *)&SD3, "posizione porta: x:%d		y:%d	\r\n\n",goals[i].position.x,goals[i].position.y);
+			break;
+		case WHITE:
+			chprintf((BaseSequentialStream *)&SD3, "Porta %d colore: BIANCO	\r\n\n",i);
+			break;
+		case COLOR_NOT_ATTRIBUTED:
+			chprintf((BaseSequentialStream *)&SD3, "Porta %d colore: NON ATTRIBUITO	\r\n\n",i);
+		}
+	}
+    mic_start(&processAudioData);
+    desired_position.x = robot.position.x;
+    desired_position.y = robot.position.y;
+    desired_goal_orientation = robot.orientation;
+    while(1){
+    		if(robot.position.x != desired_position.x && robot.position.y != desired_position.y)
+    			move_robot(desired_position.x, desired_position.y,desired_goal_orientation,false, true);
+    		manage_desired_goal();
+    }
+}
+
+
+
+
+
+
+	/***************************EXTERNAL FUNCTIONS************************************/
+
+void robotmvmts_start(void){
+	chThdCreateStatic(waGoingtoGoals, sizeof(waGoingtoGoals), NORMALPRIO, GoingtoGoals, NULL);
+}
 
