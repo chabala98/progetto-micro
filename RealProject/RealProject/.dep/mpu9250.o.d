@@ -25,7 +25,7 @@ build/obj/mpu9250.o: \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdbool.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/ch.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/compilers/GCC/chtypes.h \
- chconf.h \
+ ../../lib/e-puck2_main-processor/src/chconf.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chsystypes.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/chcore.h \
@@ -165,7 +165,7 @@ build/obj/mpu9250.o: \
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/ports/ARMCMx/compilers/GCC/chtypes.h:
 
-chconf.h:
+../../lib/e-puck2_main-processor/src/chconf.h:
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/chlicense.h:
 

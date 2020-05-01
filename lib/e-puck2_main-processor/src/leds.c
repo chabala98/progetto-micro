@@ -47,6 +47,27 @@ void set_rgb_led(rgb_led_name_t led_number, uint8_t red_val, uint8_t green_val, 
 	rgb_led[led_number][BLUE_LED] = blue_val;
 }
 
+void light_rgb_led(uint8_t color){
+	switch(color){
+		case RED:
+			for(int i=2; i<9;i+=2)
+				set_rgb_led(i,RGB_MAX_INTENSITY,0,0);
+			break;
+		case GREEN:
+			for(int i=2; i<9;i+=2)
+				set_rgb_led(i,0,RGB_MAX_INTENSITY,0);
+			break;
+		case BLUE:
+			for(int i=2; i<9;i+=2)
+				set_rgb_led(i,0,0,RGB_MAX_INTENSITY);
+			break;
+		case OFF:
+			for(int i=2; i<9;i+=2)
+				set_rgb_led(i,0,0,0);
+			break;
+		}
+}
+
 void toggle_rgb_led(rgb_led_name_t led_number, color_led_name_t led, uint8_t intensity) {
 	if(rgb_led[led_number][led] > 0) {
 		rgb_led[led_number][led] = 0;

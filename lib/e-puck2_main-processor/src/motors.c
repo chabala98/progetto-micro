@@ -9,7 +9,8 @@
 #define DISTANCE_WHEEL_TO_WHEEL	5.35// [cm]
 #define WHEEL_PERIMETER 13 // [cm]
 #define NSTEP_ONE_TURN 1000 // number of step for 1 turn of the motor
-#define CONSTANT_ROTATE_SPEED 225 //[step/s]
+#define CONSTANT_ROTATE_SPEED 500 //[step/s]
+#define CORRECTION_FACTOR 0.9182 //correct error of mvmt
 
 
 static const uint8_t step_halt[4] = {0, 0, 0, 0};
@@ -263,42 +264,57 @@ void right_motor_set_pos(int32_t counter_value){
     right_motor.count = counter_value*2; //converts steps to microsteps
 }
 
+
+//input: angle is how much we want to rotate, orientation is the robot's current orientation
+//output: robot's new orientation
+//purpose: manages all the robot's rotations
 float rotate_angle(float angle,float orientation){
 	if(angle > 0)
 		angle = angle - ((int)(angle/360))*360;
 	else if (angle < 0)
 		angle = angle + ((int)(angle/360))*360;
+	if(angle > 180)
+		angle = angle - 360;
+	else if(angle < -180)
+		angle = angle + 360;
 
 	float pos_to_reach  =  DISTANCE_WHEEL_TO_WHEEL * NSTEP_ONE_TURN* M_PI * angle/(360*WHEEL_PERIMETER);
-	float tmp_time = pos_to_reach / CONSTANT_ROTATE_SPEED;
-	if(angle>0){
+	float tmp_time = (pos_to_reach) / CONSTANT_ROTATE_SPEED;
+	if((int)angle>0){
 		right_motor_set_speed(CONSTANT_ROTATE_SPEED);
 		left_motor_set_speed(-CONSTANT_ROTATE_SPEED);
 	}
-	else if(angle<0){
+	else if((int)angle<0){
 		right_motor_set_speed(-CONSTANT_ROTATE_SPEED);
 		left_motor_set_speed(CONSTANT_ROTATE_SPEED);
 	}
 
 	tmp_time = (fabs(tmp_time*1000));
-	if(angle!=0)
-		chThdSleepMilliseconds((uint32_t)tmp_time);
+	if((uint32_t)tmp_time != 0)
+		chThdSleepMilliseconds(tmp_time);
 	right_motor_set_speed(HALT);
 	left_motor_set_speed(HALT);
 	if((orientation+angle) > 0)
 		orientation = (orientation+angle) - ((int)((orientation+angle)/360))*360;
 	else if ((orientation+angle) < 0)
 		orientation = orientation+angle + ((int)((orientation+angle)/360))*360;
+	else
+		orientation = orientation + angle;
 	return (orientation);
 
 }
 
+//input: distance is the distance we want the robot to move
+//output: -
+//purpose: move robot for a certain distance [mm]
 void move(float distance){
-	float tmp_time = (distance *NSTEP_ONE_TURN / (WHEEL_PERIMETER *10)) / (MOTOR_SPEED_LIMIT/2);
-	tmp_time = (int)(fabs(tmp_time));
-	right_motor_set_speed(MOTOR_SPEED_LIMIT/2);
-	left_motor_set_speed(MOTOR_SPEED_LIMIT/2);
-	chThdSleepMilliseconds((uint32_t)tmp_time*1000);
+	float tmp_time = (distance *CORRECTION_FACTOR*NSTEP_ONE_TURN / (WHEEL_PERIMETER *10)) / (MOTOR_SPEED_LIMIT/2);
+	tmp_time = (int)(fabs(tmp_time)*1000);
+	if(((uint32_t) tmp_time) != 0){
+		right_motor_set_speed(MOTOR_SPEED_LIMIT/2);
+		left_motor_set_speed(MOTOR_SPEED_LIMIT/2);
+		chThdSleepMilliseconds((uint32_t)tmp_time);
+	}
 	right_motor_set_speed(HALT);
 	left_motor_set_speed(HALT);
 }
@@ -358,6 +374,8 @@ void motors_init(void)
     };
     pwmStart(&PWMD4, &pwmcfg_left_motor);
     pwmEnablePeriodicNotification(&PWMD4); // PWM general interrupt at the beginning of the period to handle motor steps.
+    right_motor_set_speed(HALT);
+    	left_motor_set_speed(HALT);
 
 }
 

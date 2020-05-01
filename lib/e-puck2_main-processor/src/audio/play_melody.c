@@ -14,6 +14,7 @@ taken at https://www.princetronics.com/supermariothemesong/
 
 #include "play_melody.h"
 #include "audio_thread.h"
+#include <chprintf.h>
 
 
 //conditional variable
@@ -25,6 +26,171 @@ static thread_reference_t play_melody_ref = NULL;
 
 //variable to stop the playing if necessary
 static bool play = true;
+
+static const uint16_t broken_dreams_melody[] = {
+	NOTE_G4, 0, NOTE_G4, 0,
+	NOTE_A4, 0,NOTE_AS4,0,
+	NOTE_F5,0,NOTE_D5,0,
+	NOTE_D5,NOTE_C5,0,NOTE_AS4,
+	0,NOTE_C5,0,NOTE_AS4,
+	0,NOTE_C5,0,0,
+	NOTE_D5,0,NOTE_C5,0,
+	NOTE_AS4,NOTE_G4,0,0,
+	0,0,NOTE_G4, 0,
+	NOTE_A4, 0,NOTE_AS4,0,
+	NOTE_F5,0,NOTE_D5,0,
+	NOTE_D5,NOTE_C5,0,NOTE_AS4,
+	0,NOTE_C5,0,NOTE_AS4,
+	0,NOTE_C5,0,0,
+	NOTE_D5,0,NOTE_C5,0,
+	NOTE_AS4,NOTE_G4,0,0,
+	0,0
+
+};
+
+//Mission : californication main tempo
+static const float broken_dreams_tempo[] = {
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15,15,15,
+	15,15
+
+
+
+};
+
+
+//Mission : califonication main theme
+static const uint16_t californication_melody[] = {
+	NOTE_A2, 0, 0, NOTE_E4,
+	0, 0,NOTE_B4,0,
+	0,NOTE_C5,0,0,
+	0,0,0,NOTE_E3,
+	0,0,NOTE_D3,NOTE_E3,
+	NOTE_D3,NOTE_C3,0,0,
+	NOTE_F2,0,0,NOTE_C4,
+	0,0,NOTE_G4,0,
+	0,NOTE_A4,0,0,
+	0,0,0,NOTE_D3,
+	0,0,NOTE_C3,0,
+
+};
+
+//Mission : californication main tempo
+static const float californication_tempo[] = {
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20,
+	20,20,20,20
+
+};
+
+//Mission : imblue main theme
+static const uint16_t im_blue_melody[] = {
+    NOTE_A4, 0, 0, 0,
+	NOTE_AS4, 0, NOTE_D4, 0,
+	NOTE_G4, 0 ,NOTE_AS4, 0,
+	NOTE_C5, 0, NOTE_F4, 0,
+	NOTE_A4, 0,NOTE_AS4, 0,
+
+	0,0, NOTE_G4, 0,
+    NOTE_A4, 0, NOTE_D5,0,
+	NOTE_DS5,0, NOTE_G4, 0,
+	NOTE_D5,0, NOTE_C5, 0,
+	NOTE_AS4, 0, NOTE_D4,0,
+
+	NOTE_G4, 0 ,NOTE_AS4, 0,
+	NOTE_C5, 0, NOTE_F4,0,
+	NOTE_A4, 0,NOTE_AS4, 0,
+	0,0, NOTE_G4, 0,
+	NOTE_A4, 0, NOTE_D5,0,
+
+	NOTE_DS5,0, NOTE_G4, 0,
+	NOTE_D5, 0, NOTE_C5, 0,
+	NOTE_AS4, 0, NOTE_D4,0,
+	NOTE_G4, 0 ,NOTE_AS4, 0,
+	NOTE_C5, 0, NOTE_F4,0,
+
+	NOTE_A4, 0,NOTE_AS4, 0,
+	0,0, NOTE_G4, 0,
+	NOTE_A4, 0, NOTE_D5,0,
+	NOTE_DS5,0, NOTE_G4, 0,
+	NOTE_D5, 0, NOTE_C5, 0,
+
+	NOTE_AS4,0,NOTE_D4,0,
+	NOTE_G4,0,NOTE_AS4,0,
+	NOTE_A4,0,NOTE_C4,0,
+	NOTE_F4,0,NOTE_G4,0,
+	0,0,NOTE_C4,0,
+
+	NOTE_F4,0,NOTE_G4,0,
+	0,0, NOTE_F4,0,
+	NOTE_G4,0
+};
+
+//Mission : imblue main tempo
+static const float im_blue_tempo[] = {
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+
+	  19, 19, 19, 19,
+	  19, 19, 19, 19,
+	  19, 19
+
+};
 
 //Mission : Impossible main theme
 static const uint16_t mission_impossible_melody[] = {
@@ -80,6 +246,7 @@ static const float mission_impossible_tempo[] = {
       12, 12, 12, 12
 
 };
+
 
 //We are the champions melody
 static const uint16_t champions_melody[] = {
@@ -632,6 +799,28 @@ static const float seven_nation_army_tempo[] = {
 
 
 static const melody_t melody[NB_SONGS] = {
+
+  //IM_BLUE
+  {
+	.notes = im_blue_melody,
+	.tempo = im_blue_tempo,
+	.length = sizeof(im_blue_melody)/sizeof(uint16_t),
+
+  },
+  //CALIFORNICATION
+  {
+	.notes = californication_melody,
+	.tempo = californication_tempo,
+	.length = sizeof(californication_melody)/sizeof(uint16_t),
+
+  },
+  //BOULEVARD OF BROKEN DREAMS
+  {
+	.notes = broken_dreams_melody,
+	.tempo = broken_dreams_tempo,
+	.length = sizeof(broken_dreams_melody)/sizeof(uint16_t),
+
+  },
   //MISSION_IMPOSSIBLE
   {
     .notes = mission_impossible_melody,
@@ -778,7 +967,6 @@ void playMelodyStart(void){
 void playMelody(song_selection_t choice, play_melody_option_t option, melody_t* external_melody){
 
   melody_t* song = NULL;
-
   //case of an external melody provided
   if(choice == EXTERNAL_SONG && external_melody != NULL){
     song = external_melody;
@@ -789,7 +977,6 @@ void playMelody(song_selection_t choice, play_melody_option_t option, melody_t* 
   else{
     return;
   }
-
   //SIMPLE_PLAY case
   if(option == ML_SIMPLE_PLAY){
     //if the reference is NULL, then the thread is already running
@@ -804,7 +991,7 @@ void playMelody(song_selection_t choice, play_melody_option_t option, melody_t* 
     if(option == ML_FORCE_CHANGE){
       stopCurrentMelody();
     }
-    waitMelodyHasFinished();
+    	waitMelodyHasFinished();
     play = true;
     //tell the thread to play the song given
     chThdResume(&play_melody_ref, (msg_t) song);

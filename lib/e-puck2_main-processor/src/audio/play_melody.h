@@ -111,7 +111,10 @@ taken at https://www.princetronics.com/supermariothemesong/
 //available songs
 typedef enum{
 	//internal songs available
-	IMPOSSIBLE_MISSION = 0,
+	IM_BLUE = 0,
+	CALIFORNICATION,
+	BROKEN_DREAMS,
+	IMPOSSIBLE_MISSION,
 	WE_ARE_THE_CHAMPIONS,
 	RUSSIA,
 	MARIO,
