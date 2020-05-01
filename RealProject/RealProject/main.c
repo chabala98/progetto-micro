@@ -18,7 +18,10 @@
 #include <arm_math.h>
 #include <spi_comm.h>
 #include <leds.h>
+<<<<<<< HEAD
 #include "audio/audio_thread.h"
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 #include "cmd.h"
@@ -26,6 +29,7 @@
 #include "exti.h"
 #include "i2c_bus.h"
 #include <main.h>
+<<<<<<< HEAD
 
 #include <robotmvmts.h>
 #include <process_image.h>
@@ -33,6 +37,19 @@
 #include "audio/play_melody.h"
 #include "audio/play_sound_file.h"
 
+=======
+//#include "communication.h"
+
+#include <robotmvmts.h>
+#include <process_image.h>
+#include "sensors/VL53L0X/VL53L0X.h"
+
+//uncomment to send the FFTs results from the real microphones
+#define SEND_FROM_MIC
+
+//uncomment to use double buffering to send the FFT to the computer
+//#define DOUBLE_BUFFERING
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 static void serial_start(void)
 {
@@ -53,6 +70,11 @@ void SendUint8ToComputer(uint8_t* data, uint16_t size)
 	chSequentialStreamWrite((BaseSequentialStream *)&SD3, (uint8_t*)&size, sizeof(uint16_t));
 	chSequentialStreamWrite((BaseSequentialStream *)&SD3, (uint8_t*)data, size);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 int main(void)
@@ -70,13 +92,16 @@ int main(void)
     dcmi_start();
 	po8030_start();
 	spi_comm_start();
+<<<<<<< HEAD
 	dac_start();
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 	//inits the motors
 	clear_leds();
 
 	motors_init();
 	VL53L0X_start();
-
+	//init_identify_world();
 
 	process_image_start();
 	chThdSleepMilliseconds(5000);
@@ -107,6 +132,28 @@ int main(void)
 	   chThdSleepMilliseconds(500);
    }
 }
+
+<<<<<<< HEAD
+
+=======
+	//stars the threads for the pi regulator and the processing of the image
+	//pi_regulator_start();
+	process_image_start();
+	robotmvmts_start();
+
+    //temp tab used to store values in complex_float format
+    //needed bx doFFT_c
+
+    //send_tab is used to save the state of the buffer to send (double buffering)
+    //to avoid modifications of the buffer while sending it
+
+
+    /* Infinite loop. */
+   while (1) {
+    		chThdSleepMilliseconds(1000);
+   }
+}
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 

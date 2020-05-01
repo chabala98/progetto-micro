@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 1
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
   55              		.loc 1 6 0
   56 0018 FFF7FEBF 		b	calibrate_ir
   57              	.LVL0:
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 2
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 2
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
   58              	.L6:
@@ -118,7 +126,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  112              	.L15:
  113              		.cfi_restore_state
  114              		.loc 1 14 0
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 3
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 3
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  115 0020 9A42     		cmp	r2, r3
@@ -178,7 +190,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  169 000e 1B68     		ldr	r3, [r3]
  170              		.loc 1 20 0
  171 0010 06D9     		bls	.L24
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 4
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 4
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  172              		.loc 1 25 0
@@ -238,7 +254,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  226              	.LVL12:
  227 0000 00B5     		push	{lr}
  228              		.cfi_def_cfa_offset 4
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 5
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 5
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  229              		.cfi_offset 14, -4
@@ -298,7 +318,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  283              	.Letext0:
  284              		.file 2 "../../lib/e-puck2_main-processor/src/epuck1x/../sensors/proximity.h"
  285              		.section	.debug_info,"",%progbits
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 6
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 6
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  286              	.Ldebug_info0:
@@ -358,7 +382,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  340 006c 00000000 		.4byte	.LASF9
  341 0070 01       		.byte	0x1
  342 0071 1B       		.byte	0x1b
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 7
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 7
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  343 0072 5D000000 		.4byte	0x5d
@@ -418,7 +446,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  397 00ff 01       		.byte	0x1
  398 0100 09       		.byte	0x9
  399 0101 64000000 		.4byte	0x64
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 8
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 8
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  400 0105 74000000 		.4byte	.LLST0
@@ -478,7 +510,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  454 0004 0E       		.uleb128 0xe
  455 0005 13       		.uleb128 0x13
  456 0006 0B       		.uleb128 0xb
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 9
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 9
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  457 0007 03       		.uleb128 0x3
@@ -538,7 +574,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  511 003d 18       		.uleb128 0x18
  512 003e 9742     		.uleb128 0x2117
  513 0040 19       		.uleb128 0x19
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 10
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 10
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  514 0041 01       		.uleb128 0x1
@@ -598,7 +638,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  568 007c 12       		.uleb128 0x12
  569 007d 06       		.uleb128 0x6
  570 007e 40       		.uleb128 0x40
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 11
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 11
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  571 007f 18       		.uleb128 0x18
@@ -658,7 +702,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  625 0021 0100     		.2byte	0x1
  626 0023 50       		.byte	0x50
  627 0024 2D000000 		.4byte	.LVL15-1
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 12
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 12
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  628 0028 38000000 		.4byte	.LFE3
@@ -718,7 +766,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  682 00a4 50       		.byte	0x50
  683 00a5 9F       		.byte	0x9f
  684 00a6 00000000 		.4byte	0
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 13
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 13
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  685 00aa 00000000 		.4byte	0
@@ -778,7 +830,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  723      70726F78 
  724              	.LASF19:
  725 005e 2F557365 		.ascii	"/Users/nicolasbaldwin/Documents/OneDrive/EPFL/semes"
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 14
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 14
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  725      72732F6E 
@@ -838,7 +894,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  744 0143 6765745F 		.ascii	"get_ambient_light\000"
  744      616D6269 
  744      656E745F 
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 15
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 15
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  744      6C696768 
@@ -898,7 +958,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  760 02c6 6C6F6E67 		.ascii	"long long int\000"
  760      206C6F6E 
  760      6720696E 
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 16
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 16
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  760      7400
@@ -925,11 +989,16 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 1
  770      655F6972 
  770      00
  771              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s 			page 17
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s 			page 17
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 e_prox.c
+<<<<<<< HEAD
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:18     .text.e_calibrate_ir:0000000000000000 $t
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:26     .text.e_calibrate_ir:0000000000000000 e_calibrate_ir
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:65     .text.e_calibrate_ir:0000000000000020 $d
@@ -942,6 +1011,20 @@ DEFINED SYMBOLS
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:212    .text.e_get_ambient_light:0000000000000000 $t
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:220    .text.e_get_ambient_light:0000000000000000 e_get_ambient_light
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccEtdWXB.s:278    .text.e_get_ambient_light:0000000000000034 $d
+=======
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:18     .text.e_calibrate_ir:0000000000000000 $t
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:26     .text.e_calibrate_ir:0000000000000000 e_calibrate_ir
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:65     .text.e_calibrate_ir:0000000000000020 $d
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:70     .text.e_get_prox:0000000000000000 $t
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:78     .text.e_get_prox:0000000000000000 e_get_prox
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:136    .text.e_get_prox:0000000000000034 $d
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:141    .text.e_get_calibrated_prox:0000000000000000 $t
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:149    .text.e_get_calibrated_prox:0000000000000000 e_get_calibrated_prox
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:207    .text.e_get_calibrated_prox:0000000000000034 $d
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:212    .text.e_get_ambient_light:0000000000000000 $t
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:220    .text.e_get_ambient_light:0000000000000000 e_get_ambient_light
+/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccf0AFw4.s:278    .text.e_get_ambient_light:0000000000000034 $d
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 UNDEFINED SYMBOLS
 calibrate_ir

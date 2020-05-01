@@ -152,7 +152,10 @@ build/obj/main.o: main.c \
  ../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/core_cm4.h \
  ../../lib/e-puck2_main-processor/src/spi_comm.h \
  ../../lib/e-puck2_main-processor/src/leds.h \
+<<<<<<< HEAD
  ../../lib/e-puck2_main-processor/src/audio/audio_thread.h \
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  ../../lib/e-puck2_main-processor/src/cmd.h \
  ../../lib/e-puck2_main-processor/src/config_flash_storage.h \
  ../../lib/e-puck2_main-processor/src/parameter/parameter.h \
@@ -168,9 +171,13 @@ build/obj/main.o: main.c \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/../../core/inc/vl53l0x_def.h \
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h \
+<<<<<<< HEAD
  ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h \
  ../../lib/e-puck2_main-processor/src/audio/play_melody.h \
  ../../lib/e-puck2_main-processor/src/audio/play_sound_file.h
+=======
+ ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h:
 
@@ -471,6 +478,7 @@ main.h:
 ../../lib/e-puck2_main-processor/src/audio/microphone.h:
 
 ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h:
+<<<<<<< HEAD
 
 audio_processing.h:
 
@@ -498,6 +506,33 @@ fft.h:
 
 robotmvmts.h:
 
+=======
+
+audio_processing.h:
+
+fft.h:
+
+../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/arm_math.h:
+
+../../lib/e-puck2_main-processor/ChibiOS//os/ext/CMSIS/include/core_cm4.h:
+
+../../lib/e-puck2_main-processor/src/spi_comm.h:
+
+../../lib/e-puck2_main-processor/src/leds.h:
+
+../../lib/e-puck2_main-processor/src/cmd.h:
+
+../../lib/e-puck2_main-processor/src/config_flash_storage.h:
+
+../../lib/e-puck2_main-processor/src/parameter/parameter.h:
+
+../../lib/e-puck2_main-processor/src/exti.h:
+
+../../lib/e-puck2_main-processor/src/i2c_bus.h:
+
+robotmvmts.h:
+
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 process_image.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/VL53L0X.h:
@@ -519,7 +554,10 @@ process_image.h:
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_platform_log.h:
 
 ../../lib/e-puck2_main-processor/src/sensors/VL53L0X/Api/core/inc/../../platform/inc/vl53l0x_i2c_platform.h:
+<<<<<<< HEAD
 
 ../../lib/e-puck2_main-processor/src/audio/play_melody.h:
 
 ../../lib/e-puck2_main-processor/src/audio/play_sound_file.h:
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e

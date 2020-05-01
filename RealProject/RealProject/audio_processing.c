@@ -12,7 +12,10 @@
 #include <leds.h>
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 //semaphore
 static BSEMAPHORE_DECL(sendToComputer_sem, TRUE);
 
@@ -35,7 +38,10 @@ static float micBack_output[FFT_SIZE];
 #define FREQ_BLUE	23//359Hz
 #define FREQ_RED		26//406Hz
 #define MIN_VALUE_THRESHOLD 10000
+<<<<<<< HEAD
 #define SOUND_THRESHOLD_VALUE  9
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 
@@ -47,6 +53,7 @@ static float micBack_output[FFT_SIZE];
 #define FREQ_GREEN_H			(FREQ_GREEN+1)
 
 static int8_t goal_destination = COLOR_NOT_ATTRIBUTED;
+<<<<<<< HEAD
 
 /***************************INTERNAL FUNCTIONS************************************/
 /*
@@ -60,6 +67,33 @@ static int8_t goal_destination = COLOR_NOT_ATTRIBUTED;
 void sound_remote(float* data){
 	float max_norm = MIN_VALUE_THRESHOLD;
 	int16_t max_norm_index = -1;
+=======
+/*
+int calculate_average_frequency(float* data){
+	int sum = 0;
+	int weight = 0;
+	for(uint16_t i = MIN_FREQ ; i <= MAX_FREQ ; i++){
+		if(data[i] > 5000){
+			sum +=data[i]*i;
+			weight += data[i];
+		}
+	}
+	sum /= weight;
+	return sum;
+}
+
+
+
+*	Simple function used to detect the highest value in a buffer
+*	and to execute a motor command depending on it
+*/
+void sound_remote(float* data){
+	//static int averages[10] = {0};
+	float max_norm = MIN_VALUE_THRESHOLD;
+	int16_t max_norm_index = -1;
+	//static int index_averages = 0;
+	//static float average_of_average=0;
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 	static bool green_light = false;
 	static bool blue_light = false;
 	static bool red_light = false;
@@ -72,6 +106,7 @@ void sound_remote(float* data){
 			max_norm_index = i;
 		}
 	}
+<<<<<<< HEAD
 	//go to green goal
 	if(max_norm_index >= FREQ_GREEN_L && max_norm_index <= FREQ_GREEN_H){
 		if(green_light && nb_entries > SOUND_THRESHOLD_VALUE){
@@ -134,13 +169,91 @@ void sound_remote(float* data){
 	}
 	else{
 		nb_entries = 0;
+=======
+	/*
+	average_of_average = average_of_average*10-averages[index_averages];
+	averages[index_averages] = calculate_average_frequency(data);
+	average_of_average = (average_of_average+averages[index_averages])/10;
+	if(index_averages < 9)
+		index_averages++;
+	else
+		index_averages = 0;
+	if(index_averages == 9)
+		chprintf((BaseSequentialStream *)&SD3, "average:  %f Hz\r\n\n",15.716*average_of_average- 2.5676);
+		*/
+		if(max_norm_index >= FREQ_GREEN_L && max_norm_index <= FREQ_GREEN_H){
+			if(green_light && nb_entries > 9){
+				set_rgb_led(LED2, 0, RGB_MAX_INTENSITY, 0);
+				set_rgb_led(LED4, 0, RGB_MAX_INTENSITY, 0);
+				set_rgb_led(LED6, 0, RGB_MAX_INTENSITY, 0);
+				set_rgb_led(LED8, 0, RGB_MAX_INTENSITY, 0);
+				goal_destination = GREEN;
+			}
+			else{
+				if(red_light || blue_light || !(green_light)){
+					nb_entries = 1;
+					green_light = true;
+					blue_light = false;
+					red_light = false;
+				}
+				else
+					nb_entries++;
+			}
+		}
+		//go to red
+		else if(max_norm_index >= FREQ_RED_L && max_norm_index <= FREQ_RED_H){
+			if(red_light && nb_entries > 9){
+				set_rgb_led(LED2, RGB_MAX_INTENSITY, 0, 0);
+				set_rgb_led(LED4, RGB_MAX_INTENSITY, 0, 0);
+				set_rgb_led(LED6, RGB_MAX_INTENSITY, 0, 0);
+				set_rgb_led(LED8, RGB_MAX_INTENSITY, 0, 0);
+				goal_destination = RED;
+			}
+			else{
+				if(green_light || blue_light||!(red_light)){
+					nb_entries = 1;
+					green_light = false;
+					blue_light = false;
+					red_light = true;
+				}
+				else
+					nb_entries++;
+			}
+		}
+		//go to blue
+		else if(max_norm_index >= FREQ_BLUE_L && max_norm_index <= FREQ_BLUE_H){
+			if(blue_light && nb_entries > 9){
+				set_rgb_led(LED2, 0, 0, RGB_MAX_INTENSITY);
+				set_rgb_led(LED4, 0, 0, RGB_MAX_INTENSITY);
+				set_rgb_led(LED6, 0, 0, RGB_MAX_INTENSITY);
+				set_rgb_led(LED8, 0, 0, RGB_MAX_INTENSITY);
+				goal_destination = BLUE;
+			}
+			else{
+				if(green_light || red_light ||!(blue_light)){
+					nb_entries = 1;
+					green_light = false;
+					blue_light = true;
+					red_light = false;
+				}
+				else
+					nb_entries++;
+			}
+		}
+	//go backward
+	else{
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 		set_rgb_led(LED2, 0, 0, 0);
 		set_rgb_led(LED4, 0, 0, 0);
 		set_rgb_led(LED6, 0, 0, 0);
 		set_rgb_led(LED8, 0, 0, 0);
 		goal_destination = COLOR_NOT_ATTRIBUTED;
 	}
+<<<<<<< HEAD
 	chprintf((BaseSequentialStream *)&SD3, "colore attribuito : %d\n",goal_destination);
+=======
+	
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 }
 
 /*
@@ -161,26 +274,91 @@ void processAudioData(int16_t *data, uint16_t num_samples){
 	*	1024 samples, then we compute the FFTs.
 	*
 	*/
+<<<<<<< HEAD
 	static uint16_t nb_samples = 0;
 	for(uint16_t i = 0 ; i < num_samples ; i+=4){
 		micLeft_cmplx_input[nb_samples] = (float)data[i + MIC_LEFT];
 		nb_samples++;
 		micLeft_cmplx_input[nb_samples] = 0;
 		nb_samples++;
+=======
+
+	static uint16_t nb_samples = 0;
+	//static uint8_t mustSend = 0;
+
+	//loop to fill the buffers
+	for(uint16_t i = 0 ; i < num_samples ; i+=4){
+		//construct an array of complex numbers. Put 0 to the imaginary part
+		//micRight_cmplx_input[nb_samples] = (float)data[i + MIC_RIGHT];
+		micLeft_cmplx_input[nb_samples] = (float)data[i + MIC_LEFT];
+		//micBack_cmplx_input[nb_samples] = (float)data[i + MIC_BACK];
+		//micFront_cmplx_input[nb_samples] = (float)data[i + MIC_FRONT];
+
+		nb_samples++;
+
+		//micRight_cmplx_input[nb_samples] = 0;
+		micLeft_cmplx_input[nb_samples] = 0;
+		//micBack_cmplx_input[nb_samples] = 0;
+		//micFront_cmplx_input[nb_samples] = 0;
+
+		nb_samples++;
+
+		//stop when buffer is full
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 		if(nb_samples >= (2 * FFT_SIZE)){
 			break;
 		}
 	}
 
 	if(nb_samples >= (2 * FFT_SIZE)){
+<<<<<<< HEAD
 		doFFT_optimized(FFT_SIZE, micLeft_cmplx_input);
 		arm_cmplx_mag_f32(micLeft_cmplx_input, micLeft_output, FFT_SIZE);
 		nb_samples = 0;
+=======
+		/*	FFT proccessing
+		*
+		*	This FFT function stores the results in the input buffer given.
+		*	This is an "In Place" function. 
+		*/
+
+		//doFFT_optimized(FFT_SIZE, micRight_cmplx_input);
+		doFFT_optimized(FFT_SIZE, micLeft_cmplx_input);
+		//doFFT_optimized(FFT_SIZE, micFront_cmplx_input);
+		//doFFT_optimized(FFT_SIZE, micBack_cmplx_input);
+
+		/*	Magnitude processing
+		*
+		*	Computes the magnitude of the complex numbers and
+		*	stores them in a buffer of FFT_SIZE because it only contains
+		*	real numbers.
+		*
+		*/
+		//arm_cmplx_mag_f32(micRight_cmplx_input, micRight_output, FFT_SIZE);
+		arm_cmplx_mag_f32(micLeft_cmplx_input, micLeft_output, FFT_SIZE);
+		//arm_cmplx_mag_f32(micFront_cmplx_input, micFront_output, FFT_SIZE);
+		//arm_cmplx_mag_f32(micBack_cmplx_input, micBack_output, FFT_SIZE);
+
+		//sends only one FFT result over 10 for 1 mic to not flood the computer
+		//sends to UART3
+		//if(mustSend > 8){
+			//signals to send the result to the computer
+		//	chBSemSignal(&sendToComputer_sem);
+		//	mustSend = 0;
+		//}
+		nb_samples = 0;
+		//mustSend++;
+
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 		sound_remote(micLeft_output);
 	}
 }
 
+<<<<<<< HEAD
 //function from TP5
+=======
+
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 float* get_audio_buffer_ptr(BUFFER_NAME_t name){
 	if(name == LEFT_CMPLX_INPUT){
 		return micLeft_cmplx_input;
@@ -210,6 +388,7 @@ float* get_audio_buffer_ptr(BUFFER_NAME_t name){
 		return NULL;
 	}
 }
+<<<<<<< HEAD
 /***************************END INTERNAL FUNCTIONS************************************/
 
 
@@ -218,6 +397,8 @@ float* get_audio_buffer_ptr(BUFFER_NAME_t name){
 //input:	 -
 //output : goal_destination
 //purpose: return the goal destination
+=======
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 uint8_t get_goal_destination(void){
 	return goal_destination;

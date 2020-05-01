@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 1
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
    1              	# 1 "../../lib/e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.s"
@@ -58,7 +62,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
   52              	
   53              	/*===========================================================================*/
   54              	/* Module pre-compile time settings.                                         */
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 2
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 2
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
   55              	/*===========================================================================*/
@@ -118,7 +126,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
  109              	/**
  110              	 * @brief   FPU initialization switch.
  111              	 */
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 3
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 3
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  112              	#if !defined(CRT0_INIT_FPU) || defined(__DOXYGEN__)
@@ -178,7 +190,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
  166              	
  167              	#if CRT0_INIT_FPU == TRUE
  168              	                /* FPU FPCCR initialization.*/
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 4
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 4
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  169 0008 40F20000 	                movw    r0, #CRT0_FPCCR_INIT & 0xFFFF
@@ -238,7 +254,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
  223              	psloop:
  224 0062 9142     	                cmp     r1, r2
  225 0064 3CBF     	                itt     lo
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 5
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 5
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  226 0066 41F8040B 	                strlo   r0, [r1], #4
@@ -298,7 +318,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
  280              	finiloop:
  281 00ac AC42     	                cmp     r4, r5
  282 00ae 03DA     	                bge     endfiniloop
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 6
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 6
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  283 00b0 54F8041B 	                ldr     r1, [r4], #4
@@ -313,7 +337,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 1
  290      00000000 
  290      00000000 
  290      00000000 
+<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccOgE0GV.s 			page 7
+=======
+ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccvzBRmy.s 			page 7
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 DEFINED SYMBOLS

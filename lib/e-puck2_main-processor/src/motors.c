@@ -315,6 +315,10 @@ void move(float distance){
 		left_motor_set_speed(MOTOR_SPEED_LIMIT/2);
 		chThdSleepMilliseconds((uint32_t)tmp_time);
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 	right_motor_set_speed(HALT);
 	left_motor_set_speed(HALT);
 }
