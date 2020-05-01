@@ -158,14 +158,10 @@ build/obj/robotmvmts.o: robotmvmts.c \
  process_image.h audio_processing.h \
  ../../lib/e-puck2_main-processor/src/leds.h \
  ../../lib/e-puck2_main-processor/src/audio/microphone.h \
-<<<<<<< HEAD
  ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h \
  ../../lib/e-puck2_main-processor/src/audio/play_melody.h \
  ../../lib/e-puck2_main-processor/src/audio/play_sound_file.h \
  ../../lib/e-puck2_main-processor/src/audio/audio_thread.h
-=======
- ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 ../../lib/e-puck2_main-processor/src/motors.h:
 
@@ -494,12 +490,9 @@ audio_processing.h:
 ../../lib/e-puck2_main-processor/src/audio/microphone.h:
 
 ../../lib/e-puck2_main-processor/src/audio/mp45dt02_processing.h:
-<<<<<<< HEAD
 
 ../../lib/e-puck2_main-processor/src/audio/play_melody.h:
 
 ../../lib/e-puck2_main-processor/src/audio/play_sound_file.h:
 
 ../../lib/e-puck2_main-processor/src/audio/audio_thread.h:
-=======
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e

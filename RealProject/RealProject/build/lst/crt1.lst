@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 1
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
    1              		.cpu cortex-m4
@@ -62,11 +58,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
   55              	.L7:
   56              		.align	2
   57              	.L6:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 2
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 2
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
   58 001c 00000000 		.word	__stack_chk_guard
@@ -126,11 +118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  112              	__default_exit:
  113              	.LFB2:
  114              		.loc 1 68 0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 3
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 3
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  115              		.cfi_startproc
@@ -190,11 +178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  169 0045 05       		.uleb128 0x5
  170 0046 3D000000 		.4byte	0x3d
  171 004a 00000000 		.4byte	.LFB0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 4
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 4
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  172 004e 20000000 		.4byte	.LFE0-.LFB0
@@ -254,11 +238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  226 0029 9742     		.uleb128 0x2117
  227 002b 19       		.uleb128 0x19
  228 002c 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 5
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 5
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  229 002d 00       		.byte	0
@@ -318,11 +298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  283 0066 01       		.uleb128 0x1
  284 0067 31       		.uleb128 0x31
  285 0068 13       		.uleb128 0x13
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 6
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 6
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  286 0069 00       		.byte	0
@@ -382,11 +358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  330      7075636B 
  330      325F6D61 
  331 0042 2F706F72 		.ascii	"/ports/ARMCMx/compilers/GCC/crt1.c\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 7
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 7
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  331      74732F41 
@@ -446,11 +418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  345      7400
  346              	.LASF2:
  347 01d3 2F557365 		.ascii	"/Users/nicolasbaldwin/Documents/OneDrive/EPFL/semes"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 8
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 8
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  347      72732F6E 
@@ -463,16 +431,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 1
  348      52494E46 
  348      2F526561 
  349              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s 			page 9
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s 			page 9
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 crt1.c
-<<<<<<< HEAD
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:18     .text.__early_init:0000000000000000 $t
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:26     .text.__early_init:0000000000000000 __early_init
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:58     .text.__early_init:000000000000001c $d
@@ -482,17 +445,6 @@ DEFINED SYMBOLS
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:104    .text.__default_exit:0000000000000000 $t
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:112    .text.__default_exit:0000000000000000 __default_exit
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//cc6x1PYL.s:132    .text.__default_exit:000000000000000c $d
-=======
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:18     .text.__early_init:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:26     .text.__early_init:0000000000000000 __early_init
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:58     .text.__early_init:000000000000001c $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:63     .text.__late_init:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:71     .text.__late_init:0000000000000000 __late_init
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:99     .text.__late_init:000000000000001c $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:104    .text.__default_exit:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:112    .text.__default_exit:0000000000000000 __default_exit
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccGs0sP6.s:132    .text.__default_exit:000000000000000c $d
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 UNDEFINED SYMBOLS
 __stack_chk_fail

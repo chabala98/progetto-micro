@@ -43,11 +43,7 @@ extern "C" {
 #define COS20CTE 0.93969262
 #define TAN_CAMERA_APERTURE 0.42922
 #define	NOT_RIGHT_COLOR	60
-<<<<<<< HEAD
 #define	YIELD_DISTINGUISH_COLOR	150
-=======
-#define	YIELD_DISTINGUISH_COLOR	200
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 #define	NB_GOALS		3
 #define	RED		0
 #define	BLUE 	1

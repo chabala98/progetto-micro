@@ -11,15 +11,6 @@
 #include <stdint.h>
 #include <hal.h>
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 typedef struct {
 	uint16_t x;
 	uint16_t y;
@@ -43,18 +34,11 @@ typedef struct {
 	float orientation;
 } Goal;
 
-<<<<<<< HEAD
 //input:	 -
 //output: -
 //purpose: initialises robotmvmts thread
 void robotmvmts_start(void);
 
 bool retrieve_stop_camera(void);
-=======
-
-void robotmvmts_start(void);
-
-
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 #endif /* ROBOTMVMTS_H_ */

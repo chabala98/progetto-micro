@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 1
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
    1              		.cpu cortex-m4
@@ -62,11 +58,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
   55 001a 1A4A     		ldr	r2, .L17+4
   56 001c 4FF48051 		mov	r1, #4096
   57 0020 1183     		strh	r1, [r2, #24]	@ movhi
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 2
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 2
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
   58              		.loc 1 61 0 discriminator 1
@@ -126,11 +118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  112 0072 044A     		ldr	r2, .L17+4
  113 0074 4FF40041 		mov	r1, #32768
  114 0078 1183     		strh	r1, [r2, #24]	@ movhi
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 3
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 3
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  115 007a DEE7     		b	.L1
@@ -190,11 +178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  169 0022 8278     		ldrb	r2, [r0, #2]	@ zero_extendqisi2
  170 0024 F2B1     		cbz	r2, .L24
  171              	.L33:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 4
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 4
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  172 0026 174A     		ldr	r2, .L34+4
@@ -254,11 +238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  226              	.L31:
  227              		.loc 1 78 0 is_stmt 1
  228 007c FFF7FEFF 		bl	__stack_chk_fail
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 5
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 5
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  229              	.LVL3:
@@ -318,11 +298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  283 0022 5983     		strh	r1, [r3, #26]	@ movhi
  284              		.loc 1 143 0
  285 0024 0199     		ldr	r1, [sp, #4]
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 6
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 6
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  286 0026 1368     		ldr	r3, [r2]
@@ -382,11 +358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  340 0014 4FF48061 		mov	r1, #1024
  341              		.loc 1 156 0
  342 0018 4FF40060 		mov	r0, #2048
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 7
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 7
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  343              	.LVL8:
@@ -446,11 +418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  397 0006 2368     		ldr	r3, [r4]
  398 0008 82B0     		sub	sp, sp, #8
  399              		.cfi_def_cfa_offset 16
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 8
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 8
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  400              		.loc 1 165 0
@@ -510,11 +478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  454 0000 10B5     		push	{r4, lr}
  455              		.cfi_def_cfa_offset 8
  456              		.cfi_offset 4, -8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 9
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 9
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  457              		.cfi_offset 14, -4
@@ -574,11 +538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  511              		.fpu fpv4-sp-d16
  512              		.type	right_motor_disable_power_save, %function
  513              	right_motor_disable_power_save:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 10
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 10
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  514              	.LFB264:
@@ -638,11 +598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  568              	.LFB265:
  569              		.loc 1 190 0
  570              		.cfi_startproc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 11
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 11
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  571              		@ args = 0, pretend = 0, frame = 8
@@ -702,11 +658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  625              		@ frame_needed = 0, uses_anonymous_args = 0
  626              	.LVL20:
  627 0000 70B5     		push	{r4, r5, r6, lr}
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 12
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 12
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  628              		.cfi_def_cfa_offset 16
@@ -766,11 +718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  682              	.LVL25:
  683              	.L77:
  684              		.cfi_restore_state
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 13
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 13
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  685              		.loc 1 95 0
@@ -830,11 +778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  739 0068 FFF7FEFF 		bl	__stack_chk_fail
  740              	.LVL32:
  741              	.L86:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 14
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 14
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  742              		.align	2
@@ -894,11 +838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  796 001a 05F00705 		and	r5, r5, #7
  797              	.LVL35:
  798              		.loc 1 117 0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 15
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 15
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  799 001e 00EB8500 		add	r0, r0, r5, lsl #2
@@ -958,11 +898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  853 004e 6578     		ldrb	r5, [r4, #1]	@ zero_extendqisi2
  854              		.loc 1 122 0
  855 0050 0848     		ldr	r0, .L96+8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 16
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 16
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  856              	.LVL41:
@@ -1022,11 +958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  910              		.cfi_offset 14, -4
  911 0002 1F4D     		ldr	r5, .L110
  912 0004 85B0     		sub	sp, sp, #20
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 17
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 17
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  913              		.cfi_def_cfa_offset 32
@@ -1086,11 +1018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  967 0040 104B     		ldr	r3, .L110+4
  968              	.LVL54:
  969              	.L100:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 18
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 18
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  970              		.loc 1 222 0
@@ -1150,11 +1078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1024 007e 00BF     		.align	2
  1025              	.L110:
  1026 0080 00000000 		.word	__stack_chk_guard
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 19
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 19
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1027 0084 68F7FFFF 		.word	-2200
@@ -1214,11 +1138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1081              		.align	2
  1082              	.L117:
  1083 0024 00000000 		.word	__stack_chk_guard
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 20
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 20
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1084 0028 00000000 		.word	.LANCHOR3
@@ -1278,11 +1198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1138              	.L124:
  1139 0024 00000000 		.word	__stack_chk_guard
  1140 0028 00000000 		.word	.LANCHOR0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 21
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 21
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1141              		.cfi_endproc
@@ -1342,11 +1258,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1195 002c 00000000 		.word	.LANCHOR3
  1196              		.cfi_endproc
  1197              	.LFE269:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 22
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 22
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1198              		.size	left_motor_get_pos, .-left_motor_get_pos
@@ -1406,11 +1318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1252              	.LFE270:
  1253              		.size	right_motor_get_pos, .-right_motor_get_pos
  1254              		.section	.text.left_motor_set_pos,"ax",%progbits
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 23
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 23
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1255              		.align	1
@@ -1470,11 +1378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1309              		.size	left_motor_set_pos, .-left_motor_set_pos
  1310              		.section	.text.right_motor_set_pos,"ax",%progbits
  1311              		.align	1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 24
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 24
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1312              		.p2align 4,,15
@@ -1534,11 +1438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1366              		.section	.text.rotate_angle,"ax",%progbits
  1367              		.align	1
  1368              		.p2align 4,,15
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 25
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 25
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1369              		.global	rotate_angle
@@ -1549,11 +1449,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1374              		.type	rotate_angle, %function
  1375              	rotate_angle:
  1376              	.LFB273:
-<<<<<<< HEAD
  1377              		.loc 1 271 0
-=======
- 1377              		.loc 1 267 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1378              		.cfi_startproc
  1379              		@ args = 0, pretend = 0, frame = 8
  1380              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1571,7 +1467,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1392 0006 654C     		ldr	r4, .L184
  1393 0008 82B0     		sub	sp, sp, #8
  1394              		.cfi_def_cfa_offset 32
-<<<<<<< HEAD
  1395              		.loc 1 272 0
  1396 000a B5EEC00A 		vcmpe.f32	s0, #0
  1397              		.loc 1 271 0
@@ -1585,21 +1480,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1405              		.loc 1 272 0
  1406 001e 40F38F80 		ble	.L176
  1407              		.loc 1 273 0
-=======
- 1395              		.loc 1 268 0
- 1396 000a B5EEC00A 		vcmpe.f32	s0, #0
- 1397              		.loc 1 267 0
- 1398 000e 2368     		ldr	r3, [r4]
- 1399 0010 0193     		str	r3, [sp, #4]
- 1400              		.loc 1 268 0
- 1401 0012 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1402              		.loc 1 267 0
- 1403 0016 B0EE408A 		vmov.f32	s16, s0
- 1404 001a B0EE609A 		vmov.f32	s18, s1
- 1405              		.loc 1 268 0
- 1406 001e 40F38F80 		ble	.L176
- 1407              		.loc 1 269 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1408 0022 9FED5F7A 		vldr.32	s14, .L184+4
  1409 0026 C0EE077A 		vdiv.f32	s15, s0, s14
  1410 002a 4FF4B473 		mov	r3, #360
@@ -1611,30 +1491,19 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1416 0042 30EE678A 		vsub.f32	s16, s0, s15
  1417              	.LVL81:
  1418              	.L153:
-<<<<<<< HEAD
  1419              		.loc 1 276 0
-=======
- 1419              		.loc 1 272 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1420 0046 DFED577A 		vldr.32	s15, .L184+8
  1421 004a B4EEE78A 		vcmpe.f32	s16, s15
  1422 004e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  1423 0052 4BDD     		ble	.L177
-<<<<<<< HEAD
  1424              		.loc 1 277 0
  1425 0054 DFED527A 		vldr.32	s15, .L184+4
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 26
-=======
- 1424              		.loc 1 273 0
- 1425 0054 DFED527A 		vldr.32	s15, .L184+4
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 26
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1426 0058 38EE678A 		vsub.f32	s16, s16, s15
  1427              	.LVL82:
  1428              	.L157:
-<<<<<<< HEAD
  1429              		.loc 1 281 0
  1430 005c DFED527A 		vldr.32	s15, .L184+12
  1431 0060 9FED526A 		vldr.32	s12, .L184+16
@@ -1658,41 +1527,12 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1449              	.LVL85:
  1450              	.L160:
  1451              		.loc 1 292 0
-=======
- 1429              		.loc 1 277 0
- 1430 005c DFED527A 		vldr.32	s15, .L184+12
- 1431 0060 9FED526A 		vldr.32	s12, .L184+16
- 1432              		.loc 1 278 0
- 1433 0064 9FED527A 		vldr.32	s14, .L184+20
- 1434              		.loc 1 277 0
- 1435 0068 68EE277A 		vmul.f32	s15, s16, s15
- 1436 006c C7EE866A 		vdiv.f32	s13, s15, s12
- 1437              	.LVL83:
- 1438              		.loc 1 279 0
- 1439 0070 FDEEC87A 		vcvt.s32.f32	s15, s16
- 1440              		.loc 1 278 0
- 1441 0074 C6EE878A 		vdiv.f32	s17, s13, s14
- 1442              	.LVL84:
- 1443              		.loc 1 279 0
- 1444 0078 17EE903A 		vmov	r3, s15	@ int
- 1445 007c 002B     		cmp	r3, #0
- 1446 007e 41DC     		bgt	.L180
- 1447              		.loc 1 283 0
- 1448 0080 7FD1     		bne	.L181
- 1449              	.LVL85:
- 1450              	.L160:
- 1451              		.loc 1 288 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1452 0082 DFED4C7A 		vldr.32	s15, .L184+24
  1453 0086 68EEA77A 		vmul.f32	s15, s17, s15
  1454              	.LVL86:
  1455 008a F0EEE77A 		vabs.f32	s15, s15
  1456              	.LVL87:
-<<<<<<< HEAD
  1457              		.loc 1 293 0
-=======
- 1457              		.loc 1 289 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1458 008e FCEEE77A 		vcvt.u32.f32	s15, s15
  1459              	.LVL88:
  1460 0092 17EE900A 		vmov	r0, s15	@ int
@@ -1718,26 +1558,15 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1480              	.LVL91:
  1481              	.LBE37:
  1482              	.LBE36:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 27
 
 
  1483              		.loc 1 297 0
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 27
-
-
- 1483              		.loc 1 293 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1484 00aa 38EE090A 		vadd.f32	s0, s16, s18
  1485 00ae B5EEC00A 		vcmpe.f32	s0, #0
  1486 00b2 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  1487 00b6 2FDD     		ble	.L178
-<<<<<<< HEAD
  1488              		.loc 1 298 0
-=======
- 1488              		.loc 1 294 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1489 00b8 9FED397A 		vldr.32	s14, .L184+4
  1490 00bc C0EE077A 		vdiv.f32	s15, s0, s14
  1491 00c0 4FF4B473 		mov	r3, #360
@@ -1749,11 +1578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1497 00d8 30EE670A 		vsub.f32	s0, s0, s15
  1498              	.LVL92:
  1499              	.L150:
-<<<<<<< HEAD
  1500              		.loc 1 305 0
-=======
- 1500              		.loc 1 301 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1501 00dc 019A     		ldr	r2, [sp, #4]
  1502 00de 2368     		ldr	r3, [r4]
  1503 00e0 9A42     		cmp	r2, r3
@@ -1773,19 +1598,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1517              	.LVL94:
  1518              	.L177:
  1519              		.cfi_restore_state
-<<<<<<< HEAD
  1520              		.loc 1 278 0
  1521 00ec DFED347A 		vldr.32	s15, .L184+36
  1522 00f0 B4EEE78A 		vcmpe.f32	s16, s15
  1523 00f4 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  1524              		.loc 1 279 0
-=======
- 1520              		.loc 1 274 0
- 1521 00ec DFED347A 		vldr.32	s15, .L184+36
- 1522 00f0 B4EEE78A 		vcmpe.f32	s16, s15
- 1523 00f4 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
- 1524              		.loc 1 275 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1525 00f8 44BF     		itt	mi
  1526 00fa DFED297A 		vldrmi.32	s15, .L184+4
  1527 00fe 38EE278A 		vaddmi.f32	s16, s16, s15
@@ -1801,11 +1618,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1537 010a FFF7FEFF 		bl	motor_set_speed
  1538              	.LVL97:
  1539              	.LBE39:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 28
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 28
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1540              	.LBE38:
@@ -1821,15 +1634,9 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1550              	.L178:
  1551              	.LBE41:
  1552              	.LBE40:
-<<<<<<< HEAD
  1553              		.loc 1 299 0
  1554 0118 E0D5     		bpl	.L150
  1555              		.loc 1 300 0
-=======
- 1553              		.loc 1 295 0
- 1554 0118 E0D5     		bpl	.L150
- 1555              		.loc 1 296 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1556 011a 9FED217A 		vldr.32	s14, .L184+4
  1557 011e C0EE077A 		vdiv.f32	s15, s0, s14
  1558 0122 4FF4B473 		mov	r3, #360
@@ -1840,7 +1647,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1563 0136 F8EEE77A 		vcvt.f32.s32	s15, s15
  1564 013a 30EE270A 		vadd.f32	s0, s0, s15
  1565              	.LVL100:
-<<<<<<< HEAD
  1566              		.loc 1 303 0
  1567 013e CDE7     		b	.L150
  1568              	.LVL101:
@@ -1848,15 +1654,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1570              		.loc 1 274 0
  1571 0140 81D5     		bpl	.L153
  1572              		.loc 1 275 0
-=======
- 1566              		.loc 1 299 0
- 1567 013e CDE7     		b	.L150
- 1568              	.LVL101:
- 1569              	.L176:
- 1570              		.loc 1 270 0
- 1571 0140 81D5     		bpl	.L153
- 1572              		.loc 1 271 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1573 0142 9FED177A 		vldr.32	s14, .L184+4
  1574 0146 C0EE077A 		vdiv.f32	s15, s0, s14
  1575 014a 4FF4B473 		mov	r3, #360
@@ -1870,11 +1667,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1583 0166 6EE7     		b	.L153
  1584              	.LVL103:
  1585              	.L182:
-<<<<<<< HEAD
  1586              		.loc 1 294 0
-=======
- 1586              		.loc 1 290 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1587 0168 4FF47A73 		mov	r3, #1000
  1588 016c 03FB00F0 		mul	r0, r3, r0
  1589 0170 154B     		ldr	r3, .L184+44
@@ -1885,11 +1678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1594              	.LVL104:
  1595 0180 8BE7     		b	.L161
  1596              	.LVL105:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 29
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 29
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1597              	.L181:
@@ -1914,11 +1703,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1616              	.L183:
  1617              	.LBE45:
  1618              	.LBE44:
-<<<<<<< HEAD
  1619              		.loc 1 305 0
-=======
- 1619              		.loc 1 301 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1620 0196 FFF7FEFF 		bl	__stack_chk_fail
  1621              	.LVL109:
  1622              	.L185:
@@ -1953,43 +1738,27 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1651              		.type	move, %function
  1652              	move:
  1653              	.LFB274:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 30
 
 
  1654              		.loc 1 310 0
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 30
-
-
- 1654              		.loc 1 303 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1655              		.cfi_startproc
  1656              		@ args = 0, pretend = 0, frame = 8
  1657              		@ frame_needed = 0, uses_anonymous_args = 0
  1658              	.LVL110:
-<<<<<<< HEAD
  1659              		.loc 1 311 0
-=======
- 1659              		.loc 1 304 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1660 0000 DFED287A 		vldr.32	s15, .L195
  1661 0004 DFED286A 		vldr.32	s13, .L195+4
  1662 0008 9FED286A 		vldr.32	s12, .L195+8
  1663 000c 9FED287A 		vldr.32	s14, .L195+12
  1664 0010 20EE270A 		vmul.f32	s0, s0, s15
  1665              	.LVL111:
-<<<<<<< HEAD
  1666              		.loc 1 310 0
-=======
- 1666              		.loc 1 303 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1667 0014 30B5     		push	{r4, r5, lr}
  1668              		.cfi_def_cfa_offset 12
  1669              		.cfi_offset 4, -12
  1670              		.cfi_offset 5, -8
  1671              		.cfi_offset 14, -4
-<<<<<<< HEAD
  1672              		.loc 1 311 0
  1673 0016 20EE260A 		vmul.f32	s0, s0, s13
  1674              		.loc 1 310 0
@@ -2006,24 +1775,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1685              		.loc 1 311 0
  1686 0026 C6EE877A 		vdiv.f32	s15, s13, s14
  1687              		.loc 1 312 0
-=======
- 1672              		.loc 1 304 0
- 1673 0016 20EE260A 		vmul.f32	s0, s0, s13
- 1674              		.loc 1 303 0
- 1675 001a 264D     		ldr	r5, .L195+16
- 1676              		.loc 1 304 0
- 1677 001c C0EE066A 		vdiv.f32	s13, s0, s12
- 1678              		.loc 1 303 0
- 1679 0020 83B0     		sub	sp, sp, #12
- 1680              		.cfi_def_cfa_offset 24
- 1681              		.loc 1 303 0
- 1682 0022 2B68     		ldr	r3, [r5]
- 1683 0024 0193     		str	r3, [sp, #4]
- 1684              	.LVL112:
- 1685              		.loc 1 304 0
- 1686 0026 C6EE877A 		vdiv.f32	s15, s13, s14
- 1687              		.loc 1 305 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1688 002a F0EEE77A 		vabs.f32	s15, s15
  1689 002e 17EE900A 		vmov	r0, s15
  1690 0032 FFF7FEFF 		bl	__aeabi_f2d
@@ -2037,11 +1788,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1698 0042 07EE900A 		vmov	s15, r0	@ int
  1699 0046 F8EEE77A 		vcvt.f32.s32	s15, s15
  1700              	.LVL116:
-<<<<<<< HEAD
  1701              		.loc 1 313 0
-=======
- 1701              		.loc 1 306 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1702 004a FCEEE77A 		vcvt.u32.f32	s15, s15
  1703              	.LVL117:
  1704 004e 17EE904A 		vmov	r4, s15	@ int
@@ -2051,11 +1798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1708              	.LBB47:
  1709              		.loc 1 248 0
  1710 0054 40F22621 		movw	r1, #550
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 31
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 31
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1711 0058 1848     		ldr	r0, .L195+24
@@ -2073,11 +1816,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1723              	.LVL121:
  1724              	.LBE49:
  1725              	.LBE48:
-<<<<<<< HEAD
  1726              		.loc 1 316 0
-=======
- 1726              		.loc 1 309 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1727 0068 4FF47A70 		mov	r0, #1000
  1728 006c 00FB04F0 		mul	r0, r0, r4
  1729 0070 144C     		ldr	r4, .L195+32
@@ -2107,11 +1846,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1753 0092 0021     		movs	r1, #0
  1754              	.LBE53:
  1755              	.LBE52:
-<<<<<<< HEAD
  1756              		.loc 1 320 0
-=======
- 1756              		.loc 1 314 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1757 0094 03B0     		add	sp, sp, #12
  1758              		.cfi_remember_state
  1759              		.cfi_def_cfa_offset 12
@@ -2123,11 +1858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1765              		.cfi_def_cfa_offset 0
  1766              	.LBB55:
  1767              	.LBB54:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 32
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 32
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1768              		.loc 1 244 0
@@ -2165,11 +1896,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1800              		.type	motors_init, %function
  1801              	motors_init:
  1802              	.LFB275:
-<<<<<<< HEAD
  1803              		.loc 1 323 0
-=======
- 1803              		.loc 1 317 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1804              		.cfi_startproc
  1805              		@ args = 0, pretend = 0, frame = 8
  1806              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2182,7 +1909,6 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1813              		.cfi_offset 8, -12
  1814              		.cfi_offset 9, -8
  1815              		.cfi_offset 14, -4
-<<<<<<< HEAD
  1816              		.loc 1 325 0
  1817 0004 234C     		ldr	r4, .L202
  1818              		.loc 1 323 0
@@ -2253,105 +1979,21 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1880              		.loc 1 359 0
  1881 0052 1A49     		ldr	r1, .L202+40
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 34
-=======
- 1816              		.loc 1 319 0
- 1817 0004 234C     		ldr	r4, .L202
- 1818              		.loc 1 317 0
- 1819 0006 DFF8BC90 		ldr	r9, .L202+48
- 1820              		.loc 1 322 0
- 1821 000a 234A     		ldr	r2, .L202+4
- 1822              		.loc 1 323 0
- 1823 000c 234B     		ldr	r3, .L202+8
- 1824              		.loc 1 327 0
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 33
-
-
- 1825 000e 244D     		ldr	r5, .L202+12
- 1826              		.loc 1 330 0
- 1827 0010 2449     		ldr	r1, .L202+16
- 1828              		.loc 1 317 0
- 1829 0012 D9F80060 		ldr	r6, [r9]
- 1830              		.loc 1 324 0
- 1831 0016 2448     		ldr	r0, .L202+20
- 1832              		.loc 1 322 0
- 1833 0018 A260     		str	r2, [r4, #8]
- 1834              		.loc 1 317 0
- 1835 001a 83B0     		sub	sp, sp, #12
- 1836              		.cfi_def_cfa_offset 40
- 1837              		.loc 1 331 0
- 1838 001c 234A     		ldr	r2, .L202+24
- 1839              		.loc 1 323 0
- 1840 001e E360     		str	r3, [r4, #12]
- 1841              		.loc 1 332 0
- 1842 0020 234B     		ldr	r3, .L202+28
- 1843              		.loc 1 325 0
- 1844 0022 DFF8A480 		ldr	r8, .L202+52
- 1845              		.loc 1 333 0
- 1846 0026 234F     		ldr	r7, .L202+32
- 1847              		.loc 1 317 0
- 1848 0028 0196     		str	r6, [sp, #4]
- 1849              		.loc 1 324 0
- 1850 002a 2061     		str	r0, [r4, #16]
- 1851              		.loc 1 319 0
- 1852 002c 0026     		movs	r6, #0
- 1853              		.loc 1 336 0
- 1854 002e 2248     		ldr	r0, .L202+36
- 1855              		.loc 1 319 0
- 1856 0030 2670     		strb	r6, [r4]
- 1857              		.loc 1 332 0
- 1858 0032 C5E90323 		strd	r2, r3, [r5, #12]
- 1859              		.loc 1 330 0
- 1860 0036 C5E90161 		strd	r6, r1, [r5, #4]
- 1861              		.loc 1 320 0
- 1862 003a 6670     		strb	r6, [r4, #1]
- 1863              		.loc 1 321 0
- 1864 003c 6660     		str	r6, [r4, #4]
- 1865              		.loc 1 325 0
- 1866 003e C4F81480 		str	r8, [r4, #20]
- 1867              		.loc 1 327 0
- 1868 0042 2E70     		strb	r6, [r5]
- 1869              		.loc 1 328 0
- 1870 0044 6E70     		strb	r6, [r5, #1]
- 1871              		.loc 1 333 0
- 1872 0046 6F61     		str	r7, [r5, #20]
- 1873              		.loc 1 336 0
- 1874 0048 FFF7FEFF 		bl	right_motor_update
- 1875              	.LVL126:
- 1876              		.loc 1 337 0
- 1877 004c 1A48     		ldr	r0, .L202+36
- 1878 004e FFF7FEFF 		bl	left_motor_update
- 1879              	.LVL127:
- 1880              		.loc 1 353 0
- 1881 0052 1A49     		ldr	r1, .L202+40
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 34
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1882 0054 4046     		mov	r0, r8
  1883 0056 FFF7FEFF 		bl	pwmStart
  1884              	.LVL128:
-<<<<<<< HEAD
  1885              		.loc 1 360 0
  1886 005a 4046     		mov	r0, r8
  1887 005c FFF7FEFF 		bl	pwmEnablePeriodicNotification
  1888              	.LVL129:
  1889              		.loc 1 375 0
-=======
- 1885              		.loc 1 354 0
- 1886 005a 4046     		mov	r0, r8
- 1887 005c FFF7FEFF 		bl	pwmEnablePeriodicNotification
- 1888              	.LVL129:
- 1889              		.loc 1 369 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1890 0060 1749     		ldr	r1, .L202+44
  1891 0062 3846     		mov	r0, r7
  1892 0064 FFF7FEFF 		bl	pwmStart
  1893              	.LVL130:
-<<<<<<< HEAD
  1894              		.loc 1 376 0
-=======
- 1894              		.loc 1 370 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1895 0068 3846     		mov	r0, r7
  1896 006a FFF7FEFF 		bl	pwmEnablePeriodicNotification
  1897              	.LVL131:
@@ -2375,11 +2017,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1915 0082 2846     		mov	r0, r5
  1916              	.LBE59:
  1917              	.LBE58:
-<<<<<<< HEAD
  1918              		.loc 1 380 0
-=======
- 1918              		.loc 1 374 0
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  1919 0084 03B0     		add	sp, sp, #12
  1920              		.cfi_remember_state
  1921              		.cfi_def_cfa_offset 28
@@ -2400,11 +2038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1936              	.LVL133:
  1937              	.L201:
  1938              		.cfi_restore_state
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 35
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 35
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1939 008e FFF7FEFF 		bl	__stack_chk_fail
@@ -2464,11 +2098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  1985 0000 A0860100 		.word	100000
  1986 0004 FFFF0000 		.word	65535
  1987 0008 00000000 		.word	left_motor_timer_callback
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 36
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 36
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  1988 000c 01000000 		.word	1
@@ -2528,11 +2158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2042 000c 00       		.byte	0
  2043 000d 01       		.byte	1
  2044 000e 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 37
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 37
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2045 000f 00       		.byte	0
@@ -2592,11 +2218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2099              		.file 37 "../../lib/e-puck2_main-processor/ChibiOS//os/hal/include/i2s.h"
  2100              		.file 38 "../../lib/e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/LLD/SPIv1/i2s_lld.h"
  2101              		.file 39 "../../lib/e-puck2_main-processor/ChibiOS//os/hal/include/pwm.h"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 38
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 38
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2102              		.file 40 "../../lib/e-puck2_main-processor/ChibiOS//os/hal/ports/STM32/LLD/TIMv1/pwm_lld.h"
@@ -2656,11 +2278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2156 0053 02       		.uleb128 0x2
  2157 0054 08       		.byte	0x8
  2158 0055 04       		.byte	0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 39
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 39
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2159 0056 FB170000 		.4byte	.LASF4
@@ -2720,11 +2338,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2213 00c2 2C000000 		.4byte	0x2c
  2214 00c6 04       		.uleb128 0x4
  2215 00c7 A00C0000 		.4byte	.LASF18
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 40
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 40
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2216 00cb 04       		.byte	0x4
@@ -2784,11 +2398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2270 0143 49       		.byte	0x49
  2271 0144 C6000000 		.4byte	0xc6
  2272 0148 04       		.uleb128 0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 41
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 41
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2273 0149 90110000 		.4byte	.LASF28
@@ -2848,11 +2458,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2327 01c1 07       		.byte	0x7
  2328 01c2 C2       		.byte	0xc2
  2329 01c3 D9020000 		.4byte	0x2d9
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 42
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 42
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2330 01c7 08       		.uleb128 0x8
@@ -2912,11 +2518,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2384 0233 08       		.uleb128 0x8
  2385 0234 351F0000 		.4byte	.LASF47
  2386 0238 07       		.byte	0x7
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 43
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 43
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2387 0239 E1       		.byte	0xe1
@@ -2976,11 +2578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2441 02aa 4D01     		.2byte	0x14d
  2442 02ac 5E100000 		.4byte	0x105e
  2443 02b0 40       		.byte	0x40
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 44
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 44
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2444 02b1 0A       		.uleb128 0xa
@@ -3040,11 +2638,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2498 0320 B7       		.byte	0xb7
  2499 0321 3E030000 		.4byte	0x33e
  2500 0325 08       		.uleb128 0x8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 45
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 45
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2501 0326 39110000 		.4byte	.LASF38
@@ -3104,11 +2698,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2555 0398 DC090000 		.4byte	.LASF72
  2556 039c 07       		.byte	0x7
  2557 039d 9B01     		.2byte	0x19b
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 46
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 46
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2558 039f E4020000 		.4byte	0x2e4
@@ -3168,11 +2758,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2612 0410 BD090000 		.4byte	.LASF80
  2613 0414 07       		.byte	0x7
  2614 0415 7101     		.2byte	0x171
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 47
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 47
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2615 0417 C1030000 		.4byte	0x3c1
@@ -3232,11 +2818,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2669 048b 6A100000 		.4byte	0x106a
  2670 048f 00       		.byte	0
  2671 0490 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 48
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 48
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2672 0491 A4120000 		.4byte	.LASF87
@@ -3296,11 +2878,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2726 0507 746D00   		.ascii	"tm\000"
  2727 050a 07       		.byte	0x7
  2728 050b D701     		.2byte	0x1d7
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 49
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 49
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2729 050d F60E0000 		.4byte	0xef6
@@ -3360,11 +2938,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2783 0581 07010000 		.4byte	0x107
  2784 0585 04       		.byte	0x4
  2785 0586 18       		.uleb128 0x18
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 50
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 50
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2786 0587 43523200 		.ascii	"CR2\000"
@@ -3424,11 +2998,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2840 05f3 18120000 		.4byte	.LASF105
  2841 05f7 0A       		.byte	0xa
  2842 05f8 D1       		.byte	0xd1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 51
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 51
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2843 05f9 07010000 		.4byte	0x107
@@ -3488,11 +3058,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2897 0664 DA       		.byte	0xda
  2898 0665 67050000 		.4byte	0x567
  2899 0669 17       		.uleb128 0x17
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 52
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 52
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2900 066a 10       		.byte	0x10
@@ -3552,11 +3118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  2954 06d3 F9       		.byte	0xf9
  2955 06d4 07010000 		.4byte	0x107
  2956 06d8 08       		.byte	0x8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 53
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 53
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  2957 06d9 08       		.uleb128 0x8
@@ -3616,11 +3178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3011 074a 0A       		.byte	0xa
  3012 074b 0F01     		.2byte	0x10f
  3013 074d 07010000 		.4byte	0x107
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 54
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 54
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3014 0751 08       		.byte	0x8
@@ -3680,11 +3238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3068 07c8 D001     		.2byte	0x1d0
  3069 07ca 12       		.uleb128 0x12
  3070 07cb 464D5200 		.ascii	"FMR\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 55
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 55
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3071 07cf 0A       		.byte	0xa
@@ -3744,11 +3298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3125 084d 0A       		.byte	0xa
  3126 084e 2201     		.2byte	0x122
  3127 0850 97080000 		.4byte	0x897
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 56
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 56
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3128 0854 4002     		.2byte	0x240
@@ -3808,11 +3358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3182 08c9 5F150000 		.4byte	.LASF139
  3183 08cd 0A       		.byte	0xa
  3184 08ce 3901     		.2byte	0x139
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 57
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 57
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3185 08d0 07010000 		.4byte	0x107
@@ -3872,11 +3418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3239 0945 07010000 		.4byte	0x107
  3240 0949 28       		.byte	0x28
  3241 094a 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 58
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 58
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3242 094b 2E010000 		.4byte	.LASF149
@@ -3936,11 +3478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3296 09be 0A       		.byte	0xa
  3297 09bf 7101     		.2byte	0x171
  3298 09c1 07010000 		.4byte	0x107
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 59
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 59
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3299 09c5 10       		.byte	0x10
@@ -4000,11 +3538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3353 0a3a 0A       		.uleb128 0xa
  3354 0a3b 99240000 		.4byte	.LASF157
  3355 0a3f 0A       		.byte	0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 60
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 60
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3356 0a40 4402     		.2byte	0x244
@@ -4064,11 +3598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3410 0ab2 07010000 		.4byte	0x107
  3411 0ab6 00       		.byte	0
  3412 0ab7 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 61
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 61
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3413 0ab8 EB1F0000 		.4byte	.LASF162
@@ -4128,11 +3658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3467 0b2d 8A140000 		.4byte	.LASF169
  3468 0b31 0A       		.byte	0xa
  3469 0b32 CB02     		.2byte	0x2cb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 62
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 62
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3470 0b34 07010000 		.4byte	0x107
@@ -4192,11 +3718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3524 0ba9 07010000 		.4byte	0x107
  3525 0bad 80       		.byte	0x80
  3526 0bae 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 63
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 63
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3527 0baf 13       		.uleb128 0x13
@@ -4256,11 +3778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3581 0c21 F3090000 		.4byte	.LASF178
  3582 0c25 0A       		.byte	0xa
  3583 0c26 E302     		.2byte	0x2e3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 64
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 64
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3584 0c28 07010000 		.4byte	0x107
@@ -4320,11 +3838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3638 0c9b 10       		.byte	0x10
  3639 0c9c 09       		.uleb128 0x9
  3640 0c9d 43523300 		.ascii	"CR3\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 65
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 65
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3641 0ca1 0A       		.byte	0xa
@@ -4384,11 +3898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3695 0d13 18       		.uleb128 0x18
  3696 0d14 73313600 		.ascii	"s16\000"
  3697 0d18 0C       		.byte	0xc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 66
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 66
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3698 0d19 F6       		.byte	0xf6
@@ -4448,11 +3958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3752 0d85 FF       		.byte	0xff
  3753 0d86 D80C0000 		.4byte	0xcd8
  3754 0d8a 24       		.byte	0x24
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 67
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 67
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3755 0d8b 09       		.uleb128 0x9
@@ -4512,11 +4018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3809 0dfd 09       		.uleb128 0x9
  3810 0dfe 723700   		.ascii	"r7\000"
  3811 0e01 0C       		.byte	0xc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 68
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 68
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3812 0e02 0A01     		.2byte	0x10a
@@ -4576,11 +4078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3866 0e6e 08       		.uleb128 0x8
  3867 0e6f 730B0000 		.4byte	.LASF190
  3868 0e73 0D       		.byte	0xd
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 69
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 69
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3869 0e74 5D       		.byte	0x5d
@@ -4640,11 +4138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3923 0ee1 17       		.uleb128 0x17
  3924 0ee2 04       		.byte	0x4
  3925 0ee3 0E       		.byte	0xe
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 70
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 70
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3926 0ee4 38       		.byte	0x38
@@ -4704,11 +4198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  3980 0f4b 010F0000 		.4byte	0xf01
  3981 0f4f 17       		.uleb128 0x17
  3982 0f50 38       		.byte	0x38
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 71
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 71
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  3983 0f51 0F       		.byte	0xf
@@ -4768,11 +4258,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4037 0fc0 78170000 		.4byte	.LASF212
  4038 0fc4 07       		.byte	0x7
  4039 0fc5 1601     		.2byte	0x116
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 72
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 72
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4040 0fc7 F00F0000 		.4byte	0xff0
@@ -4832,11 +4318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4094 1039 08       		.uleb128 0x8
  4095 103a 04150000 		.4byte	.LASF221
  4096 103e 11       		.byte	0x11
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 73
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 73
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4097 103f 3C       		.byte	0x3c
@@ -4896,11 +4378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4151 10ab 31210000 		.4byte	.LASF225
  4152 10af 12       		.byte	0x12
  4153 10b0 35       		.byte	0x35
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 74
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 74
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4154 10b1 83110000 		.4byte	0x1183
@@ -4960,11 +4438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4208 111d C6000000 		.4byte	0xc6
  4209 1121 0D       		.byte	0xd
  4210 1122 08       		.uleb128 0x8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 75
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 75
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4211 1123 38050000 		.4byte	.LASF235
@@ -5024,11 +4498,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4265 1192 00       		.byte	0
  4266 1193 04       		.uleb128 0x4
  4267 1194 1E130000 		.4byte	.LASF243
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 76
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 76
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4268 1198 12       		.byte	0x12
@@ -5088,11 +4558,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4322 1207 000D0000 		.4byte	.LASF252
  4323 120b 13       		.byte	0x13
  4324 120c 43       		.byte	0x43
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 77
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 77
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4325 120d 7F010000 		.4byte	0x17f
@@ -5152,11 +4618,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4379 1279 FC030000 		.4byte	.LASF261
  4380 127d 14       		.byte	0x14
  4381 127e 51       		.byte	0x51
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 78
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 78
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4382 127f D7120000 		.4byte	0x12d7
@@ -5216,11 +4678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4436 12ee 71       		.byte	0x71
  4437 12ef 3D120000 		.4byte	0x123d
  4438 12f3 20       		.uleb128 0x20
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 79
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 79
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4439 12f4 41000000 		.4byte	0x41
@@ -5280,11 +4738,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4493 136f 89230000 		.4byte	.LASF269
  4494 1373 15       		.byte	0x15
  4495 1374 DB       		.byte	0xdb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 80
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 80
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4496 1375 AB130000 		.4byte	0x13ab
@@ -5344,11 +4798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4550 13e8 20       		.uleb128 0x20
  4551 13e9 69010000 		.4byte	0x169
  4552 13ed 01140000 		.4byte	0x1401
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 81
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 81
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4553 13f1 0E       		.uleb128 0xe
@@ -5408,11 +4858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4607 146c 6C000000 		.4byte	0x6c
  4608 1470 16       		.byte	0x16
  4609 1471 28       		.byte	0x28
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 82
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 82
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4610 1472 AD140000 		.4byte	0x14ad
@@ -5472,11 +4918,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4664 14de 16       		.byte	0x16
  4665 14df 3A       		.byte	0x3a
  4666 14e0 B8140000 		.4byte	0x14b8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 83
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 83
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4667 14e4 20       		.uleb128 0x20
@@ -5536,11 +4978,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4721 1562 0B       		.uleb128 0xb
  4722 1563 04       		.byte	0x4
  4723 1564 48150000 		.4byte	0x1548
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 84
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 84
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4724 1568 13       		.uleb128 0x13
@@ -5600,11 +5038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4778 15cd 08       		.uleb128 0x8
  4779 15ce C2020000 		.4byte	.LASF292
  4780 15d2 17       		.byte	0x17
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 85
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 85
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4781 15d3 AC       		.byte	0xac
@@ -5664,11 +5098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4835 163f BB       		.byte	0xbb
  4836 1640 07010000 		.4byte	0x107
  4837 1644 28       		.byte	0x28
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 86
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 86
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4838 1645 00       		.byte	0
@@ -5728,11 +5158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4892 16ae 04       		.uleb128 0x4
  4893 16af DE190000 		.4byte	.LASF306
  4894 16b3 17       		.byte	0x17
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 87
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 87
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4895 16b4 D0       		.byte	0xd0
@@ -5792,11 +5218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  4949 1720 C4       		.byte	0xc4
  4950 1721 08       		.uleb128 0x8
  4951 1722 44220000 		.4byte	.LASF315
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 88
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 88
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  4952 1726 17       		.byte	0x17
@@ -5856,11 +5278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5006 1798 05       		.byte	0x5
  5007 1799 00       		.byte	0
  5008 179a 04       		.uleb128 0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 89
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 89
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5009 179b CB030000 		.4byte	.LASF326
@@ -5920,11 +5338,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5063 1812 A7190000 		.4byte	0x19a7
  5064 1816 04       		.byte	0x4
  5065 1817 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 90
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 90
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5066 1818 89010000 		.4byte	.LASF335
@@ -5984,11 +5398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5120 188d 04       		.byte	0x4
  5121 188e 92180000 		.4byte	0x1892
  5122 1892 0D       		.uleb128 0xd
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 91
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 91
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5123 1893 A7180000 		.4byte	0x18a7
@@ -6048,11 +5458,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5177 190a 19       		.byte	0x19
  5178 190b 6801     		.2byte	0x168
  5179 190d B3180000 		.4byte	0x18b3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 92
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 92
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5180 1911 08       		.byte	0x8
@@ -6112,11 +5518,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5234 1982 9801     		.2byte	0x198
  5235 1984 96190000 		.4byte	0x1996
  5236 1988 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 93
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 93
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5237 1989 90230000 		.4byte	.LASF354
@@ -6176,11 +5578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5291 19fd 47000000 		.4byte	.LASF361
  5292 1a01 02       		.byte	0x2
  5293 1a02 22       		.uleb128 0x22
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 94
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 94
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5294 1a03 2E050000 		.4byte	.LASF362
@@ -6240,11 +5638,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5348 1a73 0A       		.uleb128 0xa
  5349 1a74 E71A0000 		.4byte	.LASF334
  5350 1a78 1B       		.byte	0x1b
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 95
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 95
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5351 1a79 0E01     		.2byte	0x10e
@@ -6304,11 +5698,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5405 1aeb 581A0000 		.4byte	0x1a58
  5406 1aef 0B       		.uleb128 0xb
  5407 1af0 04       		.byte	0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 96
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 96
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5408 1af1 A7080000 		.4byte	0x8a7
@@ -6368,11 +5758,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5462 1b5f D1170000 		.4byte	.LASF382
  5463 1b63 1D       		.byte	0x1d
  5464 1b64 0101     		.2byte	0x101
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 97
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 97
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5465 1b66 FC000000 		.4byte	0xfc
@@ -6432,11 +5818,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5519 1bdd 0A       		.uleb128 0xa
  5520 1bde 42150000 		.4byte	.LASF333
  5521 1be2 1D       		.byte	0x1d
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 98
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 98
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5522 1be3 7F01     		.2byte	0x17f
@@ -6496,11 +5878,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5576 1c58 07       		.byte	0x7
  5577 1c59 01       		.byte	0x1
  5578 1c5a 6C000000 		.4byte	0x6c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 99
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 99
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5579 1c5e 1D       		.byte	0x1d
@@ -6560,11 +5938,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5633 1cd4 07       		.byte	0x7
  5634 1cd5 01       		.byte	0x1
  5635 1cd6 6C000000 		.4byte	0x6c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 100
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 100
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5636 1cda 1D       		.byte	0x1d
@@ -6624,11 +5998,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5690 1d4b 3E1D0000 		.4byte	0x1d3e
  5691 1d4f 19       		.uleb128 0x19
  5692 1d50 04       		.byte	0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 101
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 101
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5693 1d51 1D       		.byte	0x1d
@@ -6688,11 +6058,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5747 1dc2 04       		.uleb128 0x4
  5748 1dc3 5A1A0000 		.4byte	.LASF408
  5749 1dc7 1E       		.byte	0x1e
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 102
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 102
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5750 1dc8 43       		.byte	0x43
@@ -6752,11 +6118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5804 1e37 08       		.uleb128 0x8
  5805 1e38 0F080000 		.4byte	.LASF412
  5806 1e3c 1F       		.byte	0x1f
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 103
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 103
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5807 1e3d 58       		.byte	0x58
@@ -6816,11 +6178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5861 1ea8 31       		.byte	0x31
  5862 1ea9 CC1E0000 		.4byte	0x1ecc
  5863 1ead 22       		.uleb128 0x22
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 104
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 104
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5864 1eae 0C160000 		.4byte	.LASF417
@@ -6880,11 +6238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5918 1f22 0C       		.byte	0xc
  5919 1f23 00       		.byte	0
  5920 1f24 04       		.uleb128 0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 105
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 105
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5921 1f25 22110000 		.4byte	.LASF425
@@ -6944,11 +6298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  5975 1f97 07010000 		.4byte	0x107
  5976 1f9b 14       		.byte	0x14
  5977 1f9c 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 106
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 106
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  5978 1f9d 4B230000 		.4byte	.LASF428
@@ -7008,11 +6358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6032 2012 44435200 		.ascii	"DCR\000"
  6033 2016 22       		.byte	0x22
  6034 2017 AE01     		.2byte	0x1ae
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 107
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 107
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6035 2019 07010000 		.4byte	0x107
@@ -7072,11 +6418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6089 208d 09       		.uleb128 0x9
  6090 208e 63723200 		.ascii	"cr2\000"
  6091 2092 21       		.byte	0x21
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 108
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 108
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6092 2093 8B01     		.2byte	0x18b
@@ -7136,11 +6478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6146 2107 04       		.byte	0x4
  6147 2108 22       		.uleb128 0x22
  6148 2109 99120000 		.4byte	.LASF448
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 109
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 109
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6149 210d 05       		.byte	0x5
@@ -7200,11 +6538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6203 217e 03       		.byte	0x3
  6204 217f 00       		.byte	0
  6205 2180 1A       		.uleb128 0x1a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 110
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 110
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6206 2181 84060000 		.4byte	.LASF459
@@ -7264,11 +6598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6260 21f9 24       		.byte	0x24
  6261 21fa A001     		.2byte	0x1a0
  6262 21fc 77220000 		.4byte	0x2277
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 111
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 111
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6263 2200 04       		.byte	0x4
@@ -7328,11 +6658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6317 2275 38       		.byte	0x38
  6318 2276 00       		.byte	0
  6319 2277 0B       		.uleb128 0xb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 112
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 112
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6320 2278 04       		.byte	0x4
@@ -7392,11 +6718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6374 22ea 00       		.byte	0
  6375 22eb 0A       		.uleb128 0xa
  6376 22ec E71A0000 		.4byte	.LASF334
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 113
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 113
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6377 22f0 26       		.byte	0x26
@@ -7456,11 +6778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6431 2363 41000000 		.4byte	0x41
  6432 2367 0E       		.uleb128 0xe
  6433 2368 41000000 		.4byte	0x41
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 114
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 114
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6434 236c 00       		.byte	0
@@ -7520,11 +6838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6488 23d6 73230000 		.4byte	0x2373
  6489 23da 05       		.uleb128 0x5
  6490 23db CE230000 		.4byte	0x23ce
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 115
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 115
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6491 23df 0B       		.uleb128 0xb
@@ -7584,11 +6898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6545 244f 91250000 		.4byte	0x2591
  6546 2453 04       		.byte	0x4
  6547 2454 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 116
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 116
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6548 2455 92120000 		.4byte	.LASF492
@@ -7648,11 +6958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6602 24ca 2A01     		.2byte	0x12a
  6603 24cc C6000000 		.4byte	0xc6
  6604 24d0 1A       		.uleb128 0x1a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 117
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 117
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6605 24d1 98020000 		.4byte	.LASF497
@@ -7712,11 +7018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6659 2547 08       		.byte	0x8
  6660 2548 0A       		.uleb128 0xa
  6661 2549 E21F0000 		.4byte	.LASF414
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 118
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 118
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6662 254d 28       		.byte	0x28
@@ -7776,11 +7078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6716 25c7 21       		.uleb128 0x21
  6717 25c8 07       		.byte	0x7
  6718 25c9 01       		.byte	0x1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 119
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 119
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6719 25ca 6C000000 		.4byte	0x6c
@@ -7840,11 +7138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6773 2639 08       		.uleb128 0x8
  6774 263a 89110000 		.4byte	.LASF512
  6775 263e 29       		.byte	0x29
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 120
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 120
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6776 263f 7B       		.byte	0x7b
@@ -7904,11 +7198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6830 26aa 6E       		.byte	0x6e
  6831 26ab 60130000 		.4byte	0x1360
  6832 26af 0C       		.byte	0xc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 121
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 121
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6833 26b0 08       		.uleb128 0x8
@@ -7968,11 +7258,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6887 271c 5F120000 		.4byte	.LASF523
  6888 2720 02       		.byte	0x2
  6889 2721 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 122
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 122
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6890 2722 04       		.uleb128 0x4
@@ -8032,11 +7318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  6944 2791 FC000000 		.4byte	0xfc
  6945 2795 28       		.byte	0x28
  6946 2796 08       		.uleb128 0x8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 123
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 123
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  6947 2797 E71A0000 		.4byte	.LASF334
@@ -8096,11 +7378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7001 2806 230D0000 		.4byte	.LASF531
  7002 280a 2C       		.byte	0x2c
  7003 280b D8       		.byte	0xd8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 124
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 124
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7004 280c D7120000 		.4byte	0x12d7
@@ -8160,11 +7438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7058 287b 2C       		.byte	0x2c
  7059 287c EC       		.byte	0xec
  7060 287d 42150000 		.4byte	0x1542
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 125
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 125
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7061 2881 14       		.byte	0x14
@@ -8224,11 +7498,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7115 28eb 560D0000 		.4byte	.LASF547
  7116 28ef 2D       		.byte	0x2d
  7117 28f0 4C       		.byte	0x4c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 126
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 126
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7118 28f1 BE280000 		.4byte	0x28be
@@ -8288,11 +7558,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7172 2969 0A       		.uleb128 0xa
  7173 296a FB070000 		.4byte	.LASF467
  7174 296e 2E       		.byte	0x2e
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 127
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 127
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7175 296f E201     		.2byte	0x1e2
@@ -8352,11 +7618,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7229 29e3 0A       		.byte	0xa
  7230 29e4 00       		.byte	0
  7231 29e5 1A       		.uleb128 0x1a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 128
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 128
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7232 29e6 991F0000 		.4byte	.LASF552
@@ -8416,11 +7678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7286 2a61 0C       		.byte	0xc
  7287 2a62 0A       		.uleb128 0xa
  7288 2a63 D8060000 		.4byte	.LASF557
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 129
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 129
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7289 2a67 30       		.byte	0x30
@@ -8480,11 +7738,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7343 2adc 30       		.byte	0x30
  7344 2add B901     		.2byte	0x1b9
  7345 2adf C6000000 		.4byte	0xc6
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 130
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 130
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7346 2ae3 4F       		.byte	0x4f
@@ -8544,11 +7798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7400 2b52 0401     		.2byte	0x104
  7401 2b54 772B0000 		.4byte	0x2b77
  7402 2b58 22       		.uleb128 0x22
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 131
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 131
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7403 2b59 7E230000 		.4byte	.LASF573
@@ -8608,11 +7858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7457 2bc8 24       		.uleb128 0x24
  7458 2bc9 07       		.byte	0x7
  7459 2bca 01       		.byte	0x1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 132
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 132
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7460 2bcb 6C000000 		.4byte	0x6c
@@ -8672,11 +7918,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7514 2c3d C1230000 		.4byte	.LASF597
  7515 2c41 2F       		.byte	0x2f
  7516 2c42 4201     		.2byte	0x142
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 133
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 133
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7517 2c44 482C0000 		.4byte	0x2c48
@@ -8736,11 +7978,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7571 2cbf 592C0000 		.4byte	0x2c59
  7572 2cc3 00       		.byte	0
  7573 2cc4 1A       		.uleb128 0x1a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 134
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 134
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7574 2cc5 560E0000 		.4byte	.LASF601
@@ -8800,11 +8038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7628 2d38 3C       		.byte	0x3c
  7629 2d39 07010000 		.4byte	0x107
  7630 2d3d 10       		.byte	0x10
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 135
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 135
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7631 2d3e 08       		.uleb128 0x8
@@ -8864,11 +8098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7685 2da7 48160000 		.4byte	.LASF615
  7686 2dab 31       		.byte	0x31
  7687 2dac 4D       		.byte	0x4d
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 136
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 136
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7688 2dad 07010000 		.4byte	0x107
@@ -8928,11 +8158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7742 2e19 0C       		.byte	0xc
  7743 2e1a 08       		.uleb128 0x8
  7744 2e1b 2E200000 		.4byte	.LASF621
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 137
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 137
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7745 2e1f 31       		.byte	0x31
@@ -8992,11 +8218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7799 2e8b 6D       		.byte	0x6d
  7800 2e8c 07010000 		.4byte	0x107
  7801 2e90 0C       		.byte	0xc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 138
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 138
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7802 2e91 08       		.uleb128 0x8
@@ -9056,11 +8278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7856 2efd 08       		.uleb128 0x8
  7857 2efe C40D0000 		.4byte	.LASF636
  7858 2f02 31       		.byte	0x31
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 139
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 139
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7859 2f03 7B       		.byte	0x7b
@@ -9120,11 +8338,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7913 2f74 86       		.byte	0x86
  7914 2f75 07010000 		.4byte	0x107
  7915 2f79 0804     		.2byte	0x408
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 140
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 140
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7916 2f7b 27       		.uleb128 0x27
@@ -9184,11 +8398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  7970 2fef 27       		.uleb128 0x27
  7971 2ff0 A0190000 		.4byte	.LASF653
  7972 2ff4 31       		.byte	0x31
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 141
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 141
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  7973 2ff5 95       		.byte	0x95
@@ -9248,11 +8458,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8027 306a A2       		.byte	0xa2
  8028 306b 07010000 		.4byte	0x107
  8029 306f 2408     		.2byte	0x824
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 142
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 142
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8030 3071 27       		.uleb128 0x27
@@ -9312,11 +8518,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8084 30e6 28       		.uleb128 0x28
  8085 30e7 696500   		.ascii	"ie\000"
  8086 30ea 31       		.byte	0x31
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 143
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 143
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8087 30eb AF       		.byte	0xaf
@@ -9376,11 +8578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8141 3162 6D310000 		.4byte	0x316d
  8142 3166 14       		.uleb128 0x14
  8143 3167 33000000 		.4byte	0x33
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 144
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 144
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8144 316b 08       		.byte	0x8
@@ -9440,11 +8638,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8198 31e6 F1310000 		.4byte	0x31f1
  8199 31ea 14       		.uleb128 0x14
  8200 31eb 33000000 		.4byte	0x33
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 145
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 145
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8201 31ef 7E       		.byte	0x7e
@@ -9504,11 +8698,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8255 325c 30       		.byte	0x30
  8256 325d DD       		.byte	0xdd
  8257 325e 6F320000 		.4byte	0x326f
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 146
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 146
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8258 3262 08       		.uleb128 0x8
@@ -9568,11 +8758,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8312 32c8 04       		.byte	0x4
  8313 32c9 08       		.uleb128 0x8
  8314 32ca 640A0000 		.4byte	.LASF685
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 147
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 147
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8315 32ce 30       		.byte	0x30
@@ -9632,11 +8818,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8369 3336 1E       		.uleb128 0x1e
  8370 3337 2D1E0000 		.4byte	.LASF681
  8371 333b 30       		.byte	0x30
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 148
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 148
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8372 333c 0601     		.2byte	0x106
@@ -9696,11 +8878,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8426 33ab 0A       		.uleb128 0xa
  8427 33ac B1160000 		.4byte	.LASF693
  8428 33b0 30       		.byte	0x30
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 149
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 149
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8429 33b1 1C01     		.2byte	0x11c
@@ -9760,11 +8938,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8483 3426 5601     		.2byte	0x156
  8484 3428 D7120000 		.4byte	0x12d7
  8485 342c 20       		.byte	0x20
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 150
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 150
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8486 342d 00       		.byte	0
@@ -9824,11 +8998,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8540 34a0 13       		.uleb128 0x13
  8541 34a1 B0340000 		.4byte	0x34b0
  8542 34a5 B0340000 		.4byte	0x34b0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 151
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 151
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8543 34a9 14       		.uleb128 0x14
@@ -9888,11 +9058,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8597 351f 02       		.byte	0x2
  8598 3520 6501     		.2byte	0x165
  8599 3522 33000000 		.4byte	0x33
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 152
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 152
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8600 3526 1D       		.uleb128 0x1d
@@ -9952,11 +9118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8654 3592 04       		.uleb128 0x4
  8655 3593 DE120000 		.4byte	.LASF720
  8656 3597 34       		.byte	0x34
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 153
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 153
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8657 3598 16       		.byte	0x16
@@ -10016,11 +9178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8711 3605 00       		.byte	0
  8712 3606 07       		.uleb128 0x7
  8713 3607 2E1A0000 		.4byte	.LASF726
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 154
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 154
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8714 360b 24       		.byte	0x24
@@ -10080,11 +9238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8768 3677 34       		.byte	0x34
  8769 3678 41       		.byte	0x41
  8770 3679 3A000000 		.4byte	0x3a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 155
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 155
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8771 367d 20       		.byte	0x20
@@ -10144,11 +9298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8825 36ed 34       		.byte	0x34
  8826 36ee 5F       		.byte	0x5f
  8827 36ef 3A000000 		.4byte	0x3a
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 156
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 156
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8828 36f3 04       		.byte	0x4
@@ -10208,11 +9358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8882 375c B5       		.byte	0xb5
  8883 375d 7F380000 		.4byte	0x387f
  8884 3761 18       		.uleb128 0x18
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 157
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 157
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8885 3762 5F7000   		.ascii	"_p\000"
@@ -10272,11 +9418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8939 37cb EC090000 		.4byte	.LASF753
  8940 37cf 34       		.byte	0x34
  8941 37d0 C7       		.byte	0xc7
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 158
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 158
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8942 37d1 FE390000 		.4byte	0x39fe
@@ -10336,11 +9478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  8996 383d 3A000000 		.4byte	0x3a
  8997 3841 4C       		.byte	0x4c
  8998 3842 08       		.uleb128 0x8
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 159
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 159
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  8999 3843 0C150000 		.4byte	.LASF759
@@ -10400,11 +9538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9053 38b7 B70F0000 		.4byte	.LASF765
  9054 38bb 34       		.byte	0x34
  9055 38bc 3B02     		.2byte	0x23b
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 160
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 160
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9056 38be 3A000000 		.4byte	0x3a
@@ -10464,11 +9598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9110 3933 B13C0000 		.4byte	0x3cb1
  9111 3937 3C       		.byte	0x3c
  9112 3938 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 161
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 161
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9113 3939 1C080000 		.4byte	.LASF775
@@ -10528,11 +9658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9167 39b0 3B020000 		.4byte	.LASF783
  9168 39b4 34       		.byte	0x34
  9169 39b5 8102     		.2byte	0x281
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 162
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 162
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9170 39b7 C83C0000 		.4byte	0x3cc8
@@ -10592,11 +9718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9224 3a37 C1030000 		.4byte	0x3c1
  9225 3a3b 00       		.byte	0
  9226 3a3c 0B       		.uleb128 0xb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 163
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 163
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9227 3a3d 04       		.byte	0x4
@@ -10656,11 +9778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9281 3ab4 0E       		.byte	0xe
  9282 3ab5 34       		.byte	0x34
  9283 3ab6 3F01     		.2byte	0x13f
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 164
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 164
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9284 3ab8 E43A0000 		.4byte	0x3ae4
@@ -10720,11 +9838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9338 3b2c 06360000 		.4byte	0x3606
  9339 3b30 24       		.byte	0x24
  9340 3b31 0A       		.uleb128 0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 165
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 165
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9341 3b32 D51E0000 		.4byte	.LASF798
@@ -10784,11 +9898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9395 3ba7 1D0B0000 		.4byte	.LASF807
  9396 3bab 34       		.byte	0x34
  9397 3bac 6802     		.2byte	0x268
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 166
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 166
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9398 3bae 76350000 		.4byte	0x3576
@@ -10848,11 +9958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9452 3c25 19       		.uleb128 0x19
  9453 3c26 F0       		.byte	0xf0
  9454 3c27 34       		.byte	0x34
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 167
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 167
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9455 3c28 7202     		.2byte	0x272
@@ -10912,11 +10018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9509 3ca0 0B       		.uleb128 0xb
  9510 3ca1 04       		.byte	0x4
  9511 3ca2 9B3C0000 		.4byte	0x3c9b
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 168
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 168
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9512 3ca6 0D       		.uleb128 0xd
@@ -10976,11 +10078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9566 3d1b 22       		.uleb128 0x22
  9567 3d1c 2D020000 		.4byte	.LASF822
  9568 3d20 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 169
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 169
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9569 3d21 22       		.uleb128 0x22
@@ -11040,11 +10138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9623 3d94 20       		.byte	0x20
  9624 3d95 AC3D0000 		.4byte	0x3dac
  9625 3d99 22       		.uleb128 0x22
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 170
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 170
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9626 3d9a 5D160000 		.4byte	.LASF828
@@ -11104,11 +10198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9680 3e06 2A       		.byte	0x2a
  9681 3e07 B2240000 		.4byte	0x24b2
  9682 3e0b 14       		.byte	0x14
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 171
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 171
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9683 3e0c 00       		.byte	0
@@ -11139,11 +10229,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9708 3e40 33       		.uleb128 0x33
  9709 3e41 AC180000 		.4byte	.LASF843
  9710 3e45 01       		.byte	0x1
-<<<<<<< HEAD
  9711 3e46 4201     		.2byte	0x142
-=======
- 9711 3e46 3C01     		.2byte	0x13c
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9712 3e48 00000000 		.4byte	.LFB275
  9713 3e4c CC000000 		.4byte	.LFE275-.LFB275
  9714 3e50 01       		.uleb128 0x1
@@ -11152,11 +10238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9717 3e56 34       		.uleb128 0x34
  9718 3e57 D6030000 		.4byte	.LASF841
  9719 3e5b 01       		.byte	0x1
-<<<<<<< HEAD
  9720 3e5c 5A01     		.2byte	0x15a
-=======
- 9720 3e5c 5401     		.2byte	0x154
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9721 3e5e 8C250000 		.4byte	0x258c
  9722 3e62 05       		.uleb128 0x5
  9723 3e63 03       		.byte	0x3
@@ -11164,11 +10246,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9725 3e68 34       		.uleb128 0x34
  9726 3e69 58020000 		.4byte	.LASF842
  9727 3e6d 01       		.byte	0x1
-<<<<<<< HEAD
  9728 3e6e 6A01     		.2byte	0x16a
-=======
- 9728 3e6e 6401     		.2byte	0x164
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9729 3e70 8C250000 		.4byte	0x258c
  9730 3e74 05       		.uleb128 0x5
  9731 3e75 03       		.byte	0x3
@@ -11178,15 +10256,9 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9735 3e7f 6E000000 		.4byte	.LBB56
  9736 3e83 08000000 		.4byte	.LBE56-.LBB56
  9737 3e87 01       		.byte	0x1
-<<<<<<< HEAD
  9738 3e88 7901     		.2byte	0x179
  9739 3e8a AE3E0000 		.4byte	0x3eae
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 172
-=======
- 9738 3e88 7301     		.2byte	0x173
- 9739 3e8a AE3E0000 		.4byte	0x3eae
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 172
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9740 3e8e 36       		.uleb128 0x36
@@ -11214,11 +10286,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9762 3eb3 76000000 		.4byte	.LBB58
  9763 3eb7 18000000 		.4byte	.Ldebug_ranges0+0x18
  9764 3ebb 01       		.byte	0x1
-<<<<<<< HEAD
  9765 3ebc 7A01     		.2byte	0x17a
-=======
- 9765 3ebc 7401     		.2byte	0x174
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9766 3ebe EE3E0000 		.4byte	0x3eee
  9767 3ec2 3A       		.uleb128 0x3a
  9768 3ec3 5B430000 		.4byte	0x435b
@@ -11250,11 +10318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9794 3efb 38       		.uleb128 0x38
  9795 3efc 01       		.uleb128 0x1
  9796 3efd 50       		.byte	0x50
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 173
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 173
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9797 3efe 05       		.uleb128 0x5
@@ -11314,11 +10378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9851 3f61 01       		.uleb128 0x1
  9852 3f62 51       		.byte	0x51
  9853 3f63 05       		.uleb128 0x5
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 174
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 174
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9854 3f64 03       		.byte	0x3
@@ -11338,11 +10398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9868 3f7b 3E       		.uleb128 0x3e
  9869 3f7c 12210000 		.4byte	.LASF844
  9870 3f80 01       		.byte	0x1
-<<<<<<< HEAD
  9871 3f81 3601     		.2byte	0x136
-=======
- 9871 3f81 2F01     		.2byte	0x12f
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9872 3f83 00000000 		.4byte	.LFB274
  9873 3f87 C8000000 		.4byte	.LFE274-.LFB274
  9874 3f8b 01       		.uleb128 0x1
@@ -11351,21 +10407,13 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9877 3f91 3F       		.uleb128 0x3f
  9878 3f92 181D0000 		.4byte	.LASF846
  9879 3f96 01       		.byte	0x1
-<<<<<<< HEAD
  9880 3f97 3601     		.2byte	0x136
-=======
- 9880 3f97 2F01     		.2byte	0x12f
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9881 3f99 25000000 		.4byte	0x25
  9882 3f9d 14000000 		.4byte	.LLST27
  9883 3fa1 40       		.uleb128 0x40
  9884 3fa2 791B0000 		.4byte	.LASF845
  9885 3fa6 01       		.byte	0x1
-<<<<<<< HEAD
  9886 3fa7 3701     		.2byte	0x137
-=======
- 9886 3fa7 3001     		.2byte	0x130
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9887 3fa9 25000000 		.4byte	0x25
  9888 3fad 38000000 		.4byte	.LLST28
  9889 3fb1 35       		.uleb128 0x35
@@ -11373,11 +10421,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9891 3fb6 54000000 		.4byte	.LBB46
  9892 3fba 0A000000 		.4byte	.LBE46-.LBB46
  9893 3fbe 01       		.byte	0x1
-<<<<<<< HEAD
  9894 3fbf 3A01     		.2byte	0x13a
-=======
- 9894 3fbf 3301     		.2byte	0x133
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9895 3fc1 E93F0000 		.4byte	0x3fe9
  9896 3fc5 36       		.uleb128 0x36
  9897 3fc6 43430000 		.4byte	0x4343
@@ -11394,11 +10438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9908 3fe0 38       		.uleb128 0x38
  9909 3fe1 01       		.uleb128 0x1
  9910 3fe2 51       		.byte	0x51
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 175
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 175
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9911 3fe3 03       		.uleb128 0x3
@@ -11411,11 +10451,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9918 3fee 5E000000 		.4byte	.LBB48
  9919 3ff2 0A000000 		.4byte	.LBE48-.LBB48
  9920 3ff6 01       		.byte	0x1
-<<<<<<< HEAD
  9921 3ff7 3B01     		.2byte	0x13b
-=======
- 9921 3ff7 3401     		.2byte	0x134
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9922 3ff9 21400000 		.4byte	0x4021
  9923 3ffd 36       		.uleb128 0x36
  9924 3ffe 5B430000 		.4byte	0x435b
@@ -11442,11 +10478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9945 4026 80000000 		.4byte	.LBB50
  9946 402a 08000000 		.4byte	.LBE50-.LBB50
  9947 402e 01       		.byte	0x1
-<<<<<<< HEAD
  9948 402f 3E01     		.2byte	0x13e
-=======
- 9948 402f 3801     		.2byte	0x138
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9949 4031 57400000 		.4byte	0x4057
  9950 4035 36       		.uleb128 0x36
  9951 4036 43430000 		.4byte	0x4343
@@ -11466,11 +10498,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9965 4053 01       		.uleb128 0x1
  9966 4054 30       		.byte	0x30
  9967 4055 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 176
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 176
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  9968 4056 00       		.byte	0
@@ -11479,11 +10507,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  9971 405c 88000000 		.4byte	.LBB52
  9972 4060 00000000 		.4byte	.Ldebug_ranges0+0
  9973 4064 01       		.byte	0x1
-<<<<<<< HEAD
  9974 4065 3F01     		.2byte	0x13f
-=======
- 9974 4065 3901     		.2byte	0x139
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  9975 4067 97400000 		.4byte	0x4097
  9976 406b 3A       		.uleb128 0x3a
  9977 406c 5B430000 		.4byte	0x435b
@@ -11515,11 +10539,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10003 40a1 41       		.uleb128 0x41
  10004 40a2 5C040000 		.4byte	.LASF853
  10005 40a6 01       		.byte	0x1
-<<<<<<< HEAD
  10006 40a7 0F01     		.2byte	0x10f
-=======
- 10006 40a7 0B01     		.2byte	0x10b
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10007 40a9 25000000 		.4byte	0x25
  10008 40ad 00000000 		.4byte	.LFB273
  10009 40b1 CC010000 		.4byte	.LFE273-.LFB273
@@ -11529,47 +10549,28 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10013 40bb 3F       		.uleb128 0x3f
  10014 40bc 66010000 		.4byte	.LASF847
  10015 40c0 01       		.byte	0x1
-<<<<<<< HEAD
  10016 40c1 0F01     		.2byte	0x10f
-=======
- 10016 40c1 0B01     		.2byte	0x10b
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10017 40c3 25000000 		.4byte	0x25
  10018 40c7 AE000000 		.4byte	.LLST17
  10019 40cb 3F       		.uleb128 0x3f
  10020 40cc 07020000 		.4byte	.LASF848
  10021 40d0 01       		.byte	0x1
-<<<<<<< HEAD
  10022 40d1 0F01     		.2byte	0x10f
  10023 40d3 25000000 		.4byte	0x25
  10024 40d7 F2000000 		.4byte	.LLST18
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 177
-=======
- 10022 40d1 0B01     		.2byte	0x10b
- 10023 40d3 25000000 		.4byte	0x25
- 10024 40d7 F2000000 		.4byte	.LLST18
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 177
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10025 40db 40       		.uleb128 0x40
  10026 40dc 2B190000 		.4byte	.LASF849
  10027 40e0 01       		.byte	0x1
-<<<<<<< HEAD
  10028 40e1 1901     		.2byte	0x119
-=======
- 10028 40e1 1501     		.2byte	0x115
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10029 40e3 25000000 		.4byte	0x25
  10030 40e7 66010000 		.4byte	.LLST19
  10031 40eb 40       		.uleb128 0x40
  10032 40ec 791B0000 		.4byte	.LASF845
  10033 40f0 01       		.byte	0x1
-<<<<<<< HEAD
  10034 40f1 1A01     		.2byte	0x11a
-=======
- 10034 40f1 1601     		.2byte	0x116
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10035 40f3 25000000 		.4byte	0x25
  10036 40f7 28020000 		.4byte	.LLST20
  10037 40fb 35       		.uleb128 0x35
@@ -11577,11 +10578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10039 4100 9A000000 		.4byte	.LBB34
  10040 4104 08000000 		.4byte	.LBE34-.LBB34
  10041 4108 01       		.byte	0x1
-<<<<<<< HEAD
  10042 4109 2701     		.2byte	0x127
-=======
- 10042 4109 2301     		.2byte	0x123
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10043 410b 31410000 		.4byte	0x4131
  10044 410f 36       		.uleb128 0x36
  10045 4110 43430000 		.4byte	0x4343
@@ -11607,11 +10604,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10065 4136 A2000000 		.4byte	.LBB36
  10066 413a 08000000 		.4byte	.LBE36-.LBB36
  10067 413e 01       		.byte	0x1
-<<<<<<< HEAD
  10068 413f 2801     		.2byte	0x128
-=======
- 10068 413f 2401     		.2byte	0x124
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10069 4141 67410000 		.4byte	0x4167
  10070 4145 36       		.uleb128 0x36
  10071 4146 5B430000 		.4byte	0x435b
@@ -11625,11 +10618,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10079 415a 05       		.uleb128 0x5
  10080 415b 03       		.byte	0x3
  10081 415c 00000000 		.4byte	.LANCHOR3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 178
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 178
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10082 4160 38       		.uleb128 0x38
@@ -11644,11 +10633,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10091 416c 04010000 		.4byte	.LBB38
  10092 4170 0A000000 		.4byte	.LBE38-.LBB38
  10093 4174 01       		.byte	0x1
-<<<<<<< HEAD
  10094 4175 1C01     		.2byte	0x11c
-=======
- 10094 4175 1801     		.2byte	0x118
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10095 4177 9F410000 		.4byte	0x419f
  10096 417b 36       		.uleb128 0x36
  10097 417c 43430000 		.4byte	0x4343
@@ -11675,11 +10660,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10118 41a4 0E010000 		.4byte	.LBB40
  10119 41a8 0A000000 		.4byte	.LBE40-.LBB40
  10120 41ac 01       		.byte	0x1
-<<<<<<< HEAD
  10121 41ad 1D01     		.2byte	0x11d
-=======
- 10121 41ad 1901     		.2byte	0x119
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10122 41af D7410000 		.4byte	0x41d7
  10123 41b3 36       		.uleb128 0x36
  10124 41b4 5B430000 		.4byte	0x435b
@@ -11697,11 +10678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10136 41cf 01       		.uleb128 0x1
  10137 41d0 51       		.byte	0x51
  10138 41d1 03       		.uleb128 0x3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 179
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 179
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10139 41d2 0B       		.byte	0xb
@@ -11713,11 +10690,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10145 41dc 82010000 		.4byte	.LBB42
  10146 41e0 08000000 		.4byte	.LBE42-.LBB42
  10147 41e4 01       		.byte	0x1
-<<<<<<< HEAD
  10148 41e5 2001     		.2byte	0x120
-=======
- 10148 41e5 1C01     		.2byte	0x11c
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10149 41e7 0F420000 		.4byte	0x420f
  10150 41eb 36       		.uleb128 0x36
  10151 41ec 43430000 		.4byte	0x4343
@@ -11744,11 +10717,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10172 4214 8A010000 		.4byte	.LBB44
  10173 4218 0C000000 		.4byte	.LBE44-.LBB44
  10174 421c 01       		.byte	0x1
-<<<<<<< HEAD
  10175 421d 2101     		.2byte	0x121
-=======
- 10175 421d 1D01     		.2byte	0x11d
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  10176 421f 47420000 		.4byte	0x4247
  10177 4223 36       		.uleb128 0x36
  10178 4224 5B430000 		.4byte	0x435b
@@ -11769,11 +10738,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10193 4242 0A       		.byte	0xa
  10194 4243 F401     		.2byte	0x1f4
  10195 4245 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 180
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 180
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10196 4246 00       		.byte	0
@@ -11833,11 +10798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10250 4296 01       		.byte	0x1
  10251 4297 0701     		.2byte	0x107
  10252 4299 00000000 		.4byte	.LFB272
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 181
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 181
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10253 429d 2C000000 		.4byte	.LFE272-.LFB272
@@ -11897,11 +10858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10307 4327 01       		.uleb128 0x1
  10308 4328 9C       		.byte	0x9c
  10309 4329 37430000 		.4byte	0x4337
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 182
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 182
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10310 432d 3C       		.uleb128 0x3c
@@ -11961,11 +10918,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10364 43a3 5C040000 		.4byte	.LLST12
  10365 43a7 49       		.uleb128 0x49
  10366 43a8 40000000 		.4byte	.LVL53
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 183
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 183
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10367 43ac 98470000 		.4byte	0x4798
@@ -12025,11 +10978,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10421 4424 4A       		.uleb128 0x4a
  10422 4425 E00B0000 		.4byte	.LASF863
  10423 4429 01       		.byte	0x1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 184
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 184
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10424 442a AD       		.byte	0xad
@@ -12089,11 +11038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10478 4496 38       		.uleb128 0x38
  10479 4497 01       		.uleb128 0x1
  10480 4498 52       		.byte	0x52
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 185
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 185
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10481 4499 02       		.uleb128 0x2
@@ -12153,11 +11098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10535 4511 6C470000 		.4byte	0x476c
  10536 4515 00       		.byte	0
  10537 4516 4C       		.uleb128 0x4c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 186
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 186
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10538 4517 3A060000 		.4byte	.LASF869
@@ -12217,11 +11158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10592 458b 01       		.byte	0x1
  10593 458c 38       		.byte	0x38
  10594 458d 00000000 		.4byte	.LFB256
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 187
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 187
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10595 4591 88000000 		.4byte	.LFE256-.LFB256
@@ -12281,11 +11218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10649 4615 00       		.byte	0
  10650 4616 00       		.byte	0
  10651 4617 54       		.uleb128 0x54
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 188
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 188
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10652 4618 24000000 		.4byte	.LVL23
@@ -12345,11 +11278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10706 4699 53       		.uleb128 0x53
  10707 469a 5E000000 		.4byte	.LVL43
  10708 469e 38       		.uleb128 0x38
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 189
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 189
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10709 469f 01       		.uleb128 0x1
@@ -12409,11 +11338,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10763 4705 67430000 		.4byte	0x4367
  10764 4709 1E470000 		.4byte	0x471e
  10765 470d 38       		.uleb128 0x38
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 190
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 190
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10766 470e 01       		.uleb128 0x1
@@ -12473,11 +11398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10820 477a 07230000 		.4byte	.LASF873
  10821 477e 27       		.byte	0x27
  10822 477f 2101     		.2byte	0x121
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 191
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 191
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10823 4781 57       		.uleb128 0x57
@@ -12537,11 +11458,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10877 0015 00       		.byte	0
  10878 0016 0B       		.uleb128 0xb
  10879 0017 0B       		.uleb128 0xb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 192
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 192
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10880 0018 3E       		.uleb128 0x3e
@@ -12601,11 +11518,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10934 004e 0B       		.uleb128 0xb
  10935 004f 01       		.uleb128 0x1
  10936 0050 13       		.uleb128 0x13
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 193
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 193
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10937 0051 00       		.byte	0
@@ -12665,11 +11578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  10991 0087 00       		.byte	0
  10992 0088 00       		.byte	0
  10993 0089 0C       		.uleb128 0xc
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 194
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 194
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  10994 008a 13       		.uleb128 0x13
@@ -12729,11 +11638,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11048 00c0 00       		.byte	0
  11049 00c1 03       		.uleb128 0x3
  11050 00c2 0E       		.uleb128 0xe
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 195
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 195
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11051 00c3 3A       		.uleb128 0x3a
@@ -12793,11 +11698,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11105 00f9 3F       		.uleb128 0x3f
  11106 00fa 19       		.uleb128 0x19
  11107 00fb 3C       		.uleb128 0x3c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 196
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 196
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11108 00fc 19       		.uleb128 0x19
@@ -12857,11 +11758,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11162 0132 0B       		.uleb128 0xb
  11163 0133 3B       		.uleb128 0x3b
  11164 0134 05       		.uleb128 0x5
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 197
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 197
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11165 0135 01       		.uleb128 0x1
@@ -12921,11 +11818,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11219 016b 00       		.byte	0
  11220 016c 00       		.byte	0
  11221 016d 1E       		.uleb128 0x1e
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 198
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 198
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11222 016e 0D       		.uleb128 0xd
@@ -12985,11 +11878,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11276 01a4 13       		.uleb128 0x13
  11277 01a5 00       		.byte	0
  11278 01a6 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 199
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 199
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11279 01a7 22       		.uleb128 0x22
@@ -13049,11 +11938,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11333 01dd 13       		.uleb128 0x13
  11334 01de 00       		.byte	0
  11335 01df 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 200
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 200
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11336 01e0 27       		.uleb128 0x27
@@ -13113,11 +11998,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11390 0216 01       		.byte	0x1
  11391 0217 0B       		.uleb128 0xb
  11392 0218 0B       		.uleb128 0xb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 201
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 201
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11393 0219 3A       		.uleb128 0x3a
@@ -13177,11 +12058,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11447 024f 01       		.uleb128 0x1
  11448 0250 13       		.uleb128 0x13
  11449 0251 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 202
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 202
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11450 0252 00       		.byte	0
@@ -13241,11 +12118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11504 0288 19       		.uleb128 0x19
  11505 0289 11       		.uleb128 0x11
  11506 028a 01       		.uleb128 0x1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 203
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 203
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11507 028b 12       		.uleb128 0x12
@@ -13305,11 +12178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11561 02c4 11       		.uleb128 0x11
  11562 02c5 01       		.uleb128 0x1
  11563 02c6 31       		.uleb128 0x31
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 204
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 204
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11564 02c7 13       		.uleb128 0x13
@@ -13369,11 +12238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11618 0305 11       		.uleb128 0x11
  11619 0306 01       		.uleb128 0x1
  11620 0307 31       		.uleb128 0x31
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 205
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 205
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11621 0308 13       		.uleb128 0x13
@@ -13433,11 +12298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11675 0341 40       		.uleb128 0x40
  11676 0342 34       		.uleb128 0x34
  11677 0343 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 206
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 206
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11678 0344 03       		.uleb128 0x3
@@ -13497,11 +12358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11732 037b 11       		.uleb128 0x11
  11733 037c 01       		.uleb128 0x1
  11734 037d 12       		.uleb128 0x12
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 207
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 207
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11735 037e 06       		.uleb128 0x6
@@ -13561,11 +12418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11789 03b5 11       		.uleb128 0x11
  11790 03b6 01       		.uleb128 0x1
  11791 03b7 12       		.uleb128 0x12
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 208
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 208
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11792 03b8 06       		.uleb128 0x6
@@ -13625,11 +12478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11846 03ef 49       		.uleb128 0x49
  11847 03f0 898201   		.uleb128 0x4109
  11848 03f3 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 209
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 209
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11849 03f4 11       		.uleb128 0x11
@@ -13689,11 +12538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11903 042d 00       		.byte	0
  11904 042e 00       		.byte	0
  11905 042f 4C       		.uleb128 0x4c
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 210
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 210
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11906 0430 2E       		.uleb128 0x2e
@@ -13753,11 +12598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  11960 0467 00       		.byte	0
  11961 0468 50       		.uleb128 0x50
  11962 0469 0B       		.uleb128 0xb
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 211
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 211
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  11963 046a 01       		.byte	0x1
@@ -13817,11 +12658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12017 04a7 56       		.uleb128 0x56
  12018 04a8 2E       		.uleb128 0x2e
  12019 04a9 00       		.byte	0
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 212
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 212
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12020 04aa 3F       		.uleb128 0x3f
@@ -13881,11 +12718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12074 0010 00000000 		.4byte	0
  12075              	.LLST27:
  12076 0014 00000000 		.4byte	.LVL110
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 213
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 213
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12077 0018 14000000 		.4byte	.LVL111
@@ -13945,11 +12778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12131 0088 68000000 		.4byte	.LVL121
  12132 008c 0400     		.2byte	0x4
  12133 008e 0A       		.byte	0xa
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 214
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 214
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12134 008f 2602     		.2byte	0x226
@@ -14009,11 +12838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12188 0114 90       		.byte	0x90
  12189 0115 41       		.uleb128 0x41
  12190 0116 0D010000 		.4byte	.LVL97-1
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 215
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 215
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12191 011a 3E010000 		.4byte	.LVL100
@@ -14073,11 +12898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12245 0190 82000000 		.4byte	.LVL85
  12246 0194 EA000000 		.4byte	.LVL93
  12247 0198 1400     		.2byte	0x14
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 216
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 216
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12248 019a F5       		.byte	0xf5
@@ -14137,11 +12958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12302 01fa 89010000 		.4byte	.LVL106-1
  12303 01fe 0200     		.2byte	0x2
  12304 0200 90       		.byte	0x90
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 217
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 217
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12305 0201 4D       		.uleb128 0x4d
@@ -14201,11 +13018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12359 026e 0200     		.2byte	0x2
  12360 0270 90       		.byte	0x90
  12361 0271 51       		.uleb128 0x51
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 218
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 218
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12362 0272 18010000 		.4byte	.LVL99
@@ -14265,11 +13078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12416              	.LLST22:
  12417 02df A2000000 		.4byte	.LVL90
  12418 02e3 AA000000 		.4byte	.LVL91
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 219
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 219
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12419 02e7 0200     		.2byte	0x2
@@ -14329,11 +13138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12473 0368 00000000 		.4byte	0
  12474              	.LLST15:
  12475 036c 00000000 		.4byte	.LVL74
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 220
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 220
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12476 0370 0C000000 		.4byte	.LVL75
@@ -14393,11 +13198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12530 03fa 51       		.byte	0x51
  12531 03fb 1E000000 		.4byte	.LVL47
  12532 03ff 26000000 		.4byte	.LVL49
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 221
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 221
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12533 0403 0100     		.2byte	0x1
@@ -14457,11 +13258,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12587 047c 9F       		.byte	0x9f
  12588 047d 66000000 		.4byte	.LVL60
  12589 0481 68000000 		.4byte	.LVL61
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 222
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 222
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12590 0485 0300     		.2byte	0x3
@@ -14521,11 +13318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12644 0504 88000000 		.4byte	.LFE256
  12645 0508 0400     		.2byte	0x4
  12646 050a F3       		.byte	0xf3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 223
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 223
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12647 050b 01       		.uleb128 0x1
@@ -14585,11 +13378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12701 058b 68000000 		.4byte	.LVL31
  12702 058f 0400     		.2byte	0x4
  12703 0591 F3       		.byte	0xf3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 224
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 224
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12704 0592 01       		.uleb128 0x1
@@ -14649,11 +13438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12758 0612 68000000 		.4byte	.LVL44
  12759 0616 0400     		.2byte	0x4
  12760 0618 F3       		.byte	0xf3
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 225
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 225
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12761 0619 01       		.uleb128 0x1
@@ -14713,11 +13498,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12815 0698 23000000 		.4byte	.LVL71-1
  12816 069c 2C000000 		.4byte	.LFE268
  12817 06a0 0400     		.2byte	0x4
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 226
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 226
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12818 06a2 F3       		.byte	0xf3
@@ -14777,11 +13558,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12872 00b0 00000000 		.4byte	0
  12873 00b4 00000000 		.4byte	0
  12874              		.section	.debug_ranges,"",%progbits
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 227
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 227
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12875              	.Ldebug_ranges0:
@@ -14841,17 +13618,10 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12929 00d4 00000000 		.4byte	0
  12930              		.section	.debug_line,"",%progbits
  12931              	.Ldebug_line0:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 228
 
 
  12932 0000 E50B0000 		.section	.debug_str,"MS",%progbits,1
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 228
-
-
- 12932 0000 E30B0000 		.section	.debug_str,"MS",%progbits,1
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
  12932      0200D008 
  12932      00000201 
  12932      FB0E0D00 
@@ -14908,11 +13678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12956      54584630 
  12956      00
  12957              	.LASF709:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 229
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 229
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12958 0087 55534244 		.ascii	"USBD1\000"
@@ -14972,11 +13738,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  12988      5F6D6F74 
  12988      6F725F70 
  12988      776D5F63 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 230
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 230
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  12988      68315F63 
@@ -15036,11 +13798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13020 0191 47434346 		.ascii	"GCCFG\000"
  13020      4700
  13021              	.LASF431:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 231
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 231
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13022 0197 42445452 		.ascii	"BDTR\000"
@@ -15100,11 +13858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13052      68726561 
  13052      64735F71 
  13052      75657565 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 232
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 232
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13052      00
@@ -15164,11 +13918,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13082 02ab 63685F73 		.ascii	"ch_size\000"
  13082      697A6500 
  13083              	.LASF646:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 233
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 233
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13084 02b3 48505458 		.ascii	"HPTXSTS\000"
@@ -15228,11 +13978,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13111              	.LASF21:
  13112 034c 696E7433 		.ascii	"int32_t\000"
  13112      325F7400 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 234
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 234
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13113              	.LASF803:
@@ -15292,11 +14038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13142      66675F72 
  13142      69676874 
  13142      5F6D6F74 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 235
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 235
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13142      6F7200
@@ -15356,11 +14098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13171              	.LASF598:
  13172 0469 75736265 		.ascii	"usbepcallback_t\000"
  13172      7063616C 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 236
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 236
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13172      6C626163 
@@ -15420,11 +14158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13198      6F6E7665 
  13198      7273696F 
  13198      6E47726F 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 237
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 237
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13198      757000
@@ -15484,11 +14218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13225              	.LASF884:
  13226 0599 5F5F7374 		.ascii	"__stack_chk_fail\000"
  13226      61636B5F 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 238
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 238
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13226      63686B5F 
@@ -15548,11 +14278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13251              	.LASF869:
  13252 063a 6C656674 		.ascii	"left_motor_timer_callback\000"
  13252      5F6D6F74 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 239
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 239
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13252      6F725F74 
@@ -15612,11 +14338,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13281              	.LASF734:
  13282 06ce 5F5F746D 		.ascii	"__tm_yday\000"
  13282      5F796461 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 240
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 240
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13282      7900
@@ -15676,11 +14398,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13312 0758 74787175 		.ascii	"txqueued\000"
  13312      65756564 
  13312      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 241
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 241
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13313              	.LASF53:
@@ -15740,11 +14458,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13339              	.LASF320:
  13340 07f0 4144435F 		.ascii	"ADC_UNINIT\000"
  13340      554E494E 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 242
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 242
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13340      495400
@@ -15804,11 +14518,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13368      697800
  13369              	.LASF735:
  13370 0882 5F5F746D 		.ascii	"__tm_isdst\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 243
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 243
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13370      5F697364 
@@ -15868,11 +14578,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13397              	.LASF218:
  13398 0913 735F636E 		.ascii	"s_cnt\000"
  13398      7400
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 244
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 244
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13399              	.LASF65:
@@ -15932,11 +14638,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13425              	.LASF142:
  13426 09a4 44485238 		.ascii	"DHR8R1\000"
  13426      523100
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 245
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 245
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13427              	.LASF145:
@@ -15996,11 +14698,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13458      00
  13459              	.LASF205:
  13460 0a2c 6E5F6374 		.ascii	"n_ctxswc\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 246
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 246
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13460      78737763 
@@ -16060,11 +14758,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13488 0aad 6F74675F 		.ascii	"otg_ram_size\000"
  13488      72616D5F 
  13488      73697A65 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 247
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 247
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13488      00
@@ -16124,11 +14818,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13514      00
  13515              	.LASF657:
  13516 0b48 44494550 		.ascii	"DIEPMSK\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 248
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 248
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13516      4D534B00 
@@ -16188,11 +14878,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13546      53544F50 
  13546      00
  13547              	.LASF488:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 249
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 249
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13548 0bd7 50574D5F 		.ascii	"PWM_STOP\000"
@@ -16252,11 +14938,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13576      5F7400
  13577              	.LASF506:
  13578 0c6c 53445F53 		.ascii	"SD_STOP\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 250
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 250
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13578      544F5000 
@@ -16316,11 +14998,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13608      43544C00 
  13609              	.LASF252:
  13610 0d00 656C5F77 		.ascii	"el_wflags\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 251
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 251
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13610      666C6167 
@@ -16380,11 +15058,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13638      564500
  13639              	.LASF413:
  13640 0d92 45585443 		.ascii	"EXTChannelConfig\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 252
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 252
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13640      68616E6E 
@@ -16444,11 +15118,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13668      7200
  13669              	.LASF678:
  13670 0e26 6E756D5F 		.ascii	"num_endpoints\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 253
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 253
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13670      656E6470 
@@ -16508,11 +15178,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13688 0f9b 72656369 		.ascii	"recision-constant\000"
  13688      73696F6E 
  13688      2D636F6E 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 254
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 254
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13688      7374616E 
@@ -16572,11 +15238,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13716      65725265 
  13716      67697374 
  13716      65725F54 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 255
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 255
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13717              	.LASF370:
@@ -16636,11 +15298,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13744 10d3 72696768 		.ascii	"right_motor\000"
  13744      745F6D6F 
  13744      746F7200 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 256
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 256
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13745              	.LASF449:
@@ -16700,11 +15358,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13773              	.LASF614:
  13774 116a 72657376 		.ascii	"resvdC\000"
  13774      644300
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 257
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 257
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13775              	.LASF501:
@@ -16764,11 +15418,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13804 11f9 636F756E 		.ascii	"counter_value\000"
  13804      7465725F 
  13804      76616C75 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 258
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 258
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13804      6500
@@ -16828,11 +15478,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13830      45465400 
  13831              	.LASF492:
  13832 1292 70657269 		.ascii	"period\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 259
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 259
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13832      6F6400
@@ -16892,11 +15538,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13862 131e 63686465 		.ascii	"chdebug_t\000"
  13862      6275675F 
  13862      7400
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 260
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 260
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13863              	.LASF690:
@@ -16956,11 +15598,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13891              	.LASF194:
  13892 13b5 74625F70 		.ascii	"tb_ptr\000"
  13892      747200
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 261
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 261
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13893              	.LASF399:
@@ -17020,11 +15658,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13920      00
  13921              	.LASF321:
  13922 144c 4144435F 		.ascii	"ADC_STOP\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 262
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 262
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13922      53544F50 
@@ -17084,11 +15718,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13948 14db 61646472 		.ascii	"address\000"
  13948      65737300 
  13949              	.LASF52:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 263
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 263
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13950 14e3 705F6D73 		.ascii	"p_msgqueue\000"
@@ -17148,11 +15778,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  13977              	.LASF160:
  13978 157b 4932435F 		.ascii	"I2C_TypeDef\000"
  13978      54797065 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 264
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 264
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  13978      44656600 
@@ -17212,11 +15838,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14005              	.LASF714:
  14006 1617 5F5F7763 		.ascii	"__wch\000"
  14006      6800
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 265
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 265
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14007              	.LASF717:
@@ -17276,11 +15898,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14033              	.LASF48:
  14034 16aa 705F7265 		.ascii	"p_refs\000"
  14034      667300
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 266
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 266
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14035              	.LASF693:
@@ -17340,11 +15958,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14063              	.LASF356:
  14064 173d 41444344 		.ascii	"ADCD1\000"
  14064      3100
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 267
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 267
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14065              	.LASF357:
@@ -17404,11 +16018,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14100 17b9 4C434B52 		.ascii	"LCKR\000"
  14100      00
  14101              	.LASF508:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 268
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 268
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14102 17be 73647374 		.ascii	"sdstate_t\000"
@@ -17468,11 +16078,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14130      53454C45 
  14130      43544544 
  14130      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 269
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 269
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14131              	.LASF16:
@@ -17532,11 +16138,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14156 18fc 69327363 		.ascii	"i2scfgr\000"
  14156      66677200 
  14157              	.LASF163:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 270
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 270
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14158 1904 52455350 		.ascii	"RESPCMD\000"
@@ -17596,11 +16198,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14188 198a 7364636D 		.ascii	"sdcmode_t\000"
  14188      6F64655F 
  14188      7400
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 271
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 271
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14189              	.LASF265:
@@ -17660,11 +16258,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14216      00
  14217              	.LASF524:
  14218 1a21 73646362 		.ascii	"sdcbusmode_t\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 272
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 272
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14218      75736D6F 
@@ -17724,11 +16318,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14244      707400
  14245              	.LASF815:
  14246 1abb 5F756E75 		.ascii	"_unused\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 273
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 273
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14246      73656400 
@@ -17788,11 +16378,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14274 1b4c 76746675 		.ascii	"vtfunc_t\000"
  14274      6E635F74 
  14274      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 274
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 274
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14275              	.LASF121:
@@ -17852,11 +16438,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14304 1be4 5553424F 		.ascii	"USBOutEndpointState\000"
  14304      7574456E 
  14304      64706F69 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 275
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 275
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14304      6E745374 
@@ -17916,11 +16498,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14330      5F7400
  14331              	.LASF867:
  14332 1c8e 72696768 		.ascii	"right_motor_pwm_ch1_cb\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 276
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 276
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14332      745F6D6F 
@@ -17980,11 +16558,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14358      7800
  14359              	.LASF245:
  14360 1d2b 6D757465 		.ascii	"mutex_t\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 277
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 277
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14360      785F7400 
@@ -18044,11 +16618,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14386      32523100 
  14387              	.LASF143:
  14388 1dbf 44485231 		.ascii	"DHR12R2\000"
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 278
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 278
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14388      32523200 
@@ -18108,11 +16678,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14416      2E2F6C69 
  14416      622F652D 
  14416      7075636B 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 279
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 279
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14416      325F6D61 
@@ -18172,11 +16738,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14443              	.LASF426:
  14444 1f17 534D4352 		.ascii	"SMCR\000"
  14444      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 280
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 280
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14445              	.LASF658:
@@ -18236,11 +16798,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14474      6F6E6669 
  14474      6700
  14475              	.LASF771:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 281
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 281
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14476 1fa3 5F756E73 		.ascii	"_unspecified_locale_info\000"
@@ -18300,11 +16858,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14503              	.LASF621:
  14504 202e 444F4550 		.ascii	"DOEPTSIZ\000"
  14504      5453495A 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 282
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 282
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14504      00
@@ -18364,11 +16918,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14528              	.LASF844:
  14529 2112 6D6F7665 		.ascii	"move\000"
  14529      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 283
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 283
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14530              	.LASF376:
@@ -18428,11 +16978,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14556              	.LASF331:
  14557 21a5 61646365 		.ascii	"adcerror_t\000"
  14557      72726F72 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 284
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 284
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14557      5F7400
@@ -18492,11 +17038,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14584              	.LASF284:
  14585 2238 424C4B5F 		.ascii	"BLK_SYNCING\000"
  14585      53594E43 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 285
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 285
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14585      494E4700 
@@ -18556,11 +17098,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14610              	.LASF437:
  14611 22d6 66726571 		.ascii	"frequency\000"
  14611      75656E63 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 286
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 286
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14611      7900
@@ -18620,11 +17158,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14639      676E6564 
  14639      20696E74 
  14639      00
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 287
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 287
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14640              	.LASF351:
@@ -18684,11 +17218,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14670              	.LASF268:
  14671 23eb 6F757470 		.ascii	"output_queue_t\000"
  14671      75745F71 
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 288
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 288
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14671      75657565 
@@ -18748,11 +17278,7 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14699      64735F6C 
  14699      69737400 
  14700              	.LASF171:
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 289
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 289
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
  14701 248d 44434F55 		.ascii	"DCOUNT\000"
@@ -18771,16 +17297,11 @@ ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 1
  14709      74617465 
  14709      5F7400
  14710              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM
-<<<<<<< HEAD
 ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s 			page 290
-=======
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 290
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 motors.c
-<<<<<<< HEAD
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:18     .text.right_motor_update:0000000000000000 $t
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:25     .text.right_motor_update:0000000000000000 right_motor_update
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:123    .text.right_motor_update:0000000000000080 $d
@@ -18856,83 +17377,6 @@ DEFINED SYMBOLS
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:2022   .rodata.step_halt:0000000000000000 step_halt
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:2025   .rodata.step_table:0000000000000000 $d
 /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccaJd0Do.s:2029   .rodata.step_table:0000000000000000 step_table
-=======
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:18     .text.right_motor_update:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:25     .text.right_motor_update:0000000000000000 right_motor_update
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:123    .text.right_motor_update:0000000000000080 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:129    .text.left_motor_update:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:136    .text.left_motor_update:0000000000000000 left_motor_update
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:233    .text.left_motor_update:0000000000000080 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:239    .text.right_motor_pwm_ch1_cb:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:246    .text.right_motor_pwm_ch1_cb:0000000000000000 right_motor_pwm_ch1_cb
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:301    .text.right_motor_pwm_ch1_cb:0000000000000034 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:307    .text.left_motor_pwm_ch1_cb:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:314    .text.left_motor_pwm_ch1_cb:0000000000000000 left_motor_pwm_ch1_cb
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:369    .text.left_motor_pwm_ch1_cb:0000000000000034 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:375    .text.right_motor_enable_power_save:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:383    .text.right_motor_enable_power_save:0000000000000000 right_motor_enable_power_save
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:434    .text.right_motor_enable_power_save:0000000000000030 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:440    .text.left_motor_enable_power_save:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:448    .text.left_motor_enable_power_save:0000000000000000 left_motor_enable_power_save
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:499    .text.left_motor_enable_power_save:0000000000000030 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:505    .text.right_motor_disable_power_save:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:513    .text.right_motor_disable_power_save:0000000000000000 right_motor_disable_power_save
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:553    .text.right_motor_disable_power_save:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:559    .text.left_motor_disable_power_save:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:567    .text.left_motor_disable_power_save:0000000000000000 left_motor_disable_power_save
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:607    .text.left_motor_disable_power_save:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:613    .text.right_motor_timer_callback:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:620    .text.right_motor_timer_callback:0000000000000000 right_motor_timer_callback
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:744    .text.right_motor_timer_callback:000000000000006c $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:752    .text.left_motor_timer_callback:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:759    .text.left_motor_timer_callback:0000000000000000 left_motor_timer_callback
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:883    .text.left_motor_timer_callback:000000000000006c $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:891    .text.motor_set_speed:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:899    .text.motor_set_speed:0000000000000000 motor_set_speed
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1026   .text.motor_set_speed:0000000000000080 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1033   .text.left_motor_set_speed:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1041   .text.left_motor_set_speed:0000000000000000 left_motor_set_speed
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1083   .text.left_motor_set_speed:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1089   .text.right_motor_set_speed:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1097   .text.right_motor_set_speed:0000000000000000 right_motor_set_speed
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1139   .text.right_motor_set_speed:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1145   .text.left_motor_get_pos:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1153   .text.left_motor_get_pos:0000000000000000 left_motor_get_pos
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1194   .text.left_motor_get_pos:0000000000000028 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1200   .text.right_motor_get_pos:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1208   .text.right_motor_get_pos:0000000000000000 right_motor_get_pos
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1249   .text.right_motor_get_pos:0000000000000028 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1255   .text.left_motor_set_pos:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1263   .text.left_motor_set_pos:0000000000000000 left_motor_set_pos
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1305   .text.left_motor_set_pos:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1311   .text.right_motor_set_pos:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1319   .text.right_motor_set_pos:0000000000000000 right_motor_set_pos
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1361   .text.right_motor_set_pos:0000000000000024 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1367   .text.rotate_angle:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1375   .text.rotate_angle:0000000000000000 rotate_angle
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1625   .text.rotate_angle:000000000000019c $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1644   .text.move:0000000000000000 $t
-ARM GAS  /var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s 			page 291
-
-
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1652   .text.move:0000000000000000 move
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1778   .text.move:00000000000000a4 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1793   .text.motors_init:0000000000000000 $t
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1801   .text.motors_init:0000000000000000 motors_init
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1944   .text.motors_init:0000000000000094 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1970   .bss.left_motor:0000000000000000 left_motor
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1977   .bss.right_motor:0000000000000000 right_motor
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1966   .bss.left_motor:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1973   .bss.right_motor:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1980   .rodata.pwmcfg_left_motor.10690:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1984   .rodata.pwmcfg_left_motor.10690:0000000000000000 pwmcfg_left_motor.10690
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:1999   .rodata.pwmcfg_right_motor.10689:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:2003   .rodata.pwmcfg_right_motor.10689:0000000000000000 pwmcfg_right_motor.10689
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:2018   .rodata.step_halt:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:2022   .rodata.step_halt:0000000000000000 step_halt
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:2025   .rodata.step_table:0000000000000000 $d
-/var/folders/0b/rh7d8qts4ys3rdpl8xd_0jkm0000gn/T//ccT1yIt8.s:2029   .rodata.step_table:0000000000000000 step_table
->>>>>>> 8624660db6ce97125d5ca04f847a51ed0c81d01e
 
 UNDEFINED SYMBOLS
 __stack_chk_fail
