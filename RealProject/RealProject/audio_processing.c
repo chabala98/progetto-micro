@@ -2,7 +2,6 @@
 #include "hal.h"
 #include <main.h>
 #include <usbcfg.h>
-#include <chprintf.h>
 
 #include <motors.h>
 #include <audio/microphone.h>
@@ -140,7 +139,6 @@ void sound_remote(float* data){
 		set_rgb_led(LED8, 0, 0, 0);
 		goal_destination = COLOR_NOT_ATTRIBUTED;
 	}
-	chprintf((BaseSequentialStream *)&SD3, "colore attribuito : %d\n",goal_destination);
 }
 
 /*

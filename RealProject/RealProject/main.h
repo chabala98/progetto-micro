@@ -51,6 +51,7 @@ extern "C" {
 #define	WHITE	3
 #define	COLOR_NOT_ATTRIBUTED		4
 #define	OFF						5
+#define	REOR_THRESHOLD					6
 
 
 

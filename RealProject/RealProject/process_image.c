@@ -1,13 +1,12 @@
 #include "ch.h"
 #include "hal.h"
-#include <chprintf.h>
 #include <usbcfg.h>
 
 #include <main.h>
 #include <camera/po8030.h>
 
 #include <process_image.h>
-#include <robotmvmts.h>
+
 
 
 
@@ -185,8 +184,6 @@ static THD_FUNCTION(CaptureImage, arg) {
 		wait_image_ready();
 		//signals an image has been captured
 		chBSemSignal(&image_ready_sem);
-		if(retrieve_stop_camera() == true)
-			chThdExit(0);
     }
 }
 

@@ -99,8 +99,6 @@ build/obj/process_image.o: process_image.c \
  ../../lib/e-puck2_main-processor/ChibiOS_ext/os/hal/ports/STM32/STM32F4xx/stm32_registry.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/hal/include/mmc_spi.h \
  ../../lib/e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h \
- ../../lib/e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h \
- /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h \
  ../../lib/e-puck2_main-processor/src/usbcfg.h main.h \
  ../../lib/e-puck2_main-processor/src/camera/dcmi_camera.h \
  ../../lib/e-puck2_main-processor/ChibiOS_ext/os/hal/include/dcmi.h \
@@ -136,8 +134,7 @@ build/obj/process_image.o: process_image.c \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/reent.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/stdlib.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/alloca.h \
- ../../lib/e-puck2_main-processor/src/camera/po8030.h process_image.h \
- robotmvmts.h
+ ../../lib/e-puck2_main-processor/src/camera/po8030.h process_image.h
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/ch.h:
 
@@ -341,10 +338,6 @@ mcuconf.h:
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/hal/include/serial_usb.h:
 
-../../lib/e-puck2_main-processor/ChibiOS//os/hal/lib/streams/chprintf.h:
-
-/Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h:
-
 ../../lib/e-puck2_main-processor/src/usbcfg.h:
 
 main.h:
@@ -420,5 +413,3 @@ main.h:
 ../../lib/e-puck2_main-processor/src/camera/po8030.h:
 
 process_image.h:
-
-robotmvmts.h:

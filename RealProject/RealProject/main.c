@@ -84,25 +84,6 @@ int main(void)
 	playMelodyStart();
 	playSoundFileStart();
 
-
-	/* IN THIS SITUATION, IT WORKS
-	 chThdSleepMilliseconds(10);
-	 playMelody(IM_BLUE, ML_FORCE_CHANGE,NULL);
-	 playMelody(CALIFORNICATION, ML_FORCE_CHANGE,NULL);
-	 playMelody(IM_BLUE, ML_FORCE_CHANGE,NULL);
-	 chThdSleepMilliseconds(10000);
-	 playMelody(BROKEN_DREAMS, ML_FORCE_CHANGE,NULL);
-	 */
-
-	/* IN THIS SITUATION, IT DOESN'T WORK
-	 chThdSleepMilliseconds(10);
-	 playMelody(IM_BLUE, ML_FORCE_CHANGE,NULL);
-	 playMelody(CALIFORNICATION, ML_FORCE_CHANGE,NULL);
-	 playMelody(BROKEN_DREAM, ML_FORCE_CHANGE,NULL);
-	 chThdSleepMilliseconds(10000);
-	 playMelody(IM_BLUE, ML_FORCE_CHANGE,NULL);
-	 */
-
    while (1) {
 	   chThdSleepMilliseconds(500);
    }

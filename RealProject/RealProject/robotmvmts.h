@@ -39,6 +39,6 @@ typedef struct {
 //purpose: initialises robotmvmts thread
 void robotmvmts_start(void);
 
-bool retrieve_stop_camera(void);
+
 
 #endif /* ROBOTMVMTS_H_ */

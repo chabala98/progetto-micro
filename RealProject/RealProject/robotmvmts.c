@@ -24,7 +24,6 @@ static Robot robot;
 static Goal goals[NB_GOALS];
 static Position desired_position;
 static float desired_goal_orientation;
-static bool stop_camera = false;
 
 //input:	number of times that the TOF repeats the measure (nbr_of_measures)
 //output: the average value of the different TOF measures [mm](dist)
@@ -138,6 +137,7 @@ void attribute_goal(void){
 	uint8_t color_to_analyse;
 	uint16_t line_position;
 	int16_t dist_to_move;
+	uint8_t reorientation_cnt = 0;
 	for(int i = FIRST_GOAL; i<=THIRD_GOAL ; i++)
 		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	//SCAN FIRST WALL
@@ -150,18 +150,28 @@ void attribute_goal(void){
 			identified_goal=true;
 		else if((robot.position.x + STEP_POSITION) >= (robot.max.x - SECURE_DIST))
 			break;
-		else
-			move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE,FACE_WALL1,false,false);
+		else{
+			if(reorientation_cnt < REOR_THRESHOLD)
+				move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE,FACE_WALL1,false,false);
+			else{
+				rotate_angle(-ADJ_ORIENT_ANGLE,robot.orientation);
+				adjust_orientation();
+				reorientation_cnt = 0;
+			}
+		}
+		reorientation_cnt ++;
 	}
 	goals[i].color = get_color_detected();
 	//CHECKING IF COLOR WAS ATTRIBUTED TO GOAL
 	if(goals[i].color == WHITE)
 		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	else{
-		move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE,FACE_WALL1,false,false);
+		move_robot(robot.position.x + STEP_POSITION, DIST_CAMERA_MEASURE + 2* STEP_POSITION,FACE_WALL1,false,false);
 		light_rgb_led(goals[i].color);
 		color_to_analyse = chose_color_to_analyse(goals[i].color);
 		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+			if(robot.position.y > (robot.max.y - DIAMETER_ROBOT))
+				break;
 			move_robot(robot.position.x, robot.position.y + STEP_POSITION,FACE_WALL1,true,false);
 			chThdSleepMilliseconds(500);
 		}
@@ -179,6 +189,8 @@ void attribute_goal(void){
 
     	//SCAN SECOND WALL
     	identified_goal = false;
+    	reorientation_cnt = 0;
+    	move_robot(robot.max.x/2,robot.max.y/2,robot.orientation,false,false);
     	move_robot(robot.max.x - DIST_CAMERA_MEASURE,SECURE_DIST,FACE_WALL2,true,false);
     	while(!identified_goal){
     		chThdSleepMilliseconds(500);
@@ -186,8 +198,16 @@ void attribute_goal(void){
     			identified_goal=true;
     		else if((robot.position.y + STEP_POSITION) >= (robot.max.y - SECURE_DIST))
     			break;
-    		else
-    			move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + STEP_POSITION,FACE_WALL2,false,false);
+    		else{
+    			if(reorientation_cnt < REOR_THRESHOLD)
+    				move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + STEP_POSITION,FACE_WALL2,false,false);
+    			else{
+    				rotate_angle(-ADJ_ORIENT_ANGLE,robot.orientation);
+    				adjust_orientation();
+    				reorientation_cnt = 0;
+    			}
+    		}
+    		reorientation_cnt ++;
     	}
     	goals[i].color = get_color_detected();
 
@@ -195,10 +215,12 @@ void attribute_goal(void){
     	if(goals[i].color == WHITE)
     		goals[i].color = COLOR_NOT_ATTRIBUTED;
     	else{
-    		move_robot(robot.max.x - DIST_CAMERA_MEASURE, robot.position.y + STEP_POSITION,FACE_WALL2,false,false);
+    		move_robot(robot.max.x - DIST_CAMERA_MEASURE - 2* STEP_POSITION, robot.position.y + STEP_POSITION,FACE_WALL2,false,false);
     		light_rgb_led(goals[i].color);
     		color_to_analyse = chose_color_to_analyse(goals[i].color);
     		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+    			if(robot.position.x <  DIAMETER_ROBOT)
+    				break;
     			move_robot(robot.position.x - STEP_POSITION, robot.position.y,FACE_WALL2,true,false);
     			adjust_orientation();
     			chThdSleepMilliseconds(500);
@@ -215,7 +237,9 @@ void attribute_goal(void){
     	}
 
     //SCAN THIRD GOAL
+    	reorientation_cnt = 0;
  	identified_goal = false;
+	move_robot(robot.max.x/2,robot.max.y/2,robot.orientation,false,false);
  	move_robot((robot.max.x - SECURE_DIST),(robot.max.y - DIST_CAMERA_MEASURE),FACE_WALL3,true,false);
  	while(!identified_goal){
  		chThdSleepMilliseconds(500);
@@ -223,8 +247,16 @@ void attribute_goal(void){
  			identified_goal=true;
  		else if((robot.position.x - STEP_POSITION) <= SECURE_DIST)
  			break;
- 		else
- 			move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE),FACE_WALL3,false,false);
+ 		else{
+			if(reorientation_cnt < REOR_THRESHOLD)
+				move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE),FACE_WALL3,false,false);
+			else{
+				rotate_angle(-ADJ_ORIENT_ANGLE,robot.orientation);
+				adjust_orientation();
+				reorientation_cnt = 0;
+			}
+ 		}
+		reorientation_cnt ++;
  	}
  	goals[i].color = get_color_detected();
 
@@ -232,10 +264,12 @@ void attribute_goal(void){
  	if(goals[i].color == WHITE)
  		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	else{
-		move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE),FACE_WALL3,false,false);
+		move_robot(robot.position.x-STEP_POSITION,(robot.max.y - DIST_CAMERA_MEASURE - 2* STEP_POSITION),FACE_WALL3,false,false);
 		light_rgb_led(goals[i].color);
 		color_to_analyse = chose_color_to_analyse(goals[i].color);
 		while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+			if(robot.position.y < DIAMETER_ROBOT)
+				break;
 			move_robot(robot.position.x, robot.position.y-STEP_POSITION,FACE_WALL3,true,false);
 			chThdSleepMilliseconds(500);
 		}
@@ -253,7 +287,9 @@ void attribute_goal(void){
 
   //SCAN FOURTH WALL
   if(i == THIRD_GOAL){
-	 	identified_goal = false;
+	  	reorientation_cnt = 0;
+	  	identified_goal = false;
+		move_robot(robot.max.x/2,robot.max.y/2,robot.orientation,false,false);
 	 	move_robot(DIST_CAMERA_MEASURE,(robot.max.y - SECURE_DIST),FACE_WALL4,true,false);
 	 	while(!identified_goal){
 	 		chThdSleepMilliseconds(500);
@@ -262,17 +298,27 @@ void attribute_goal(void){
 	 		}
 	 		else if((robot.position.y - STEP_POSITION) <= SECURE_DIST)
 	 			break;
-	 		else
-	 			move_robot(DIST_CAMERA_MEASURE, (robot.position.y - STEP_POSITION),FACE_WALL4,false,false);
+	 		else{
+				if(reorientation_cnt < REOR_THRESHOLD)
+					move_robot(DIST_CAMERA_MEASURE, (robot.position.y - STEP_POSITION),FACE_WALL4,false,false);
+				else{
+					rotate_angle(-ADJ_ORIENT_ANGLE,robot.orientation);
+					adjust_orientation();
+					reorientation_cnt = 0;
+				}
+	 		}
+			reorientation_cnt ++;
 	 	}
 	 	goals[i].color = get_color_detected();
 	 	if(goals[i].color == WHITE)
 	 		goals[i].color = COLOR_NOT_ATTRIBUTED;
 	 	else{
-	 		move_robot(DIST_CAMERA_MEASURE,(robot.position.y - STEP_POSITION),FACE_WALL4,true,false);
+	 		move_robot(DIST_CAMERA_MEASURE + 2* STEP_POSITION,(robot.position.y - STEP_POSITION),FACE_WALL4,false,false);
 			light_rgb_led(goals[i].color);
 			color_to_analyse = chose_color_to_analyse(goals[i].color);
 			while(!(get_line_width(color_to_analyse) > 0 || get_line_width(color_to_analyse) > 0)){
+				if(robot.position.x > (robot.max.x - DIAMETER_ROBOT))
+					break;
 				move_robot(robot.position.x + STEP_POSITION, robot.position.y,FACE_WALL4,true,false);
 				chThdSleepMilliseconds(500);
 			}
@@ -374,7 +420,7 @@ void manage_desired_goal(void){
 
 void order_goals(void){
 	Goal tmp;
-	for(uint8_t i = FIRST_GOAL; i < THIRD_GOAL ; i++){
+	for(uint8_t i = FIRST_GOAL; i <= THIRD_GOAL ; i++){
 		switch(goals[i].color){
 			case RED:
 				if(i != FIRST_GOAL){
@@ -428,15 +474,13 @@ static THD_FUNCTION(GoingtoGoals, arg) {
     desired_position.x = robot.position.x;
     desired_position.y = robot.position.y;
     desired_goal_orientation = robot.orientation;
-    stop_camera = true;
     chThdSleepMilliseconds(500);
     while(1){
     		if(robot.position.x != desired_position.x || robot.position.y != desired_position.y)
     			move_robot(desired_position.x, desired_position.y,desired_goal_orientation,false, true);
     		else{
-    			move_robot(robot.max.x/2, robot.max.y/2,desired_goal_orientation,false, false);
-    		    desired_position.x = robot.position.x;
-    		    desired_position.y = robot.position.y;
+    		    desired_position.x = robot.max.x/2;
+    		    desired_position.y = robot.max.y/2;
     		}
     		manage_desired_goal();
     		chThdSleepMilliseconds(10);
@@ -449,11 +493,9 @@ static THD_FUNCTION(GoingtoGoals, arg) {
 //purpose: initialises robotmvmts thread
 
 void robotmvmts_start(void){
-	chThdCreateStatic(waGoingtoGoals, sizeof(waGoingtoGoals), NORMALPRIO-1, GoingtoGoals, NULL);
+	chThdCreateStatic(waGoingtoGoals, sizeof(waGoingtoGoals), NORMALPRIO, GoingtoGoals, NULL);
 }
 
-bool retrieve_stop_camera(void){
-	return stop_camera;
-}
+
 
 
