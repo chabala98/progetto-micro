@@ -39,6 +39,10 @@ typedef struct {
 //purpose: initialises robotmvmts thread
 void robotmvmts_start(void);
 
+//input:	 -
+//output: end_camera_thread
+//purpose: returns value that detremines whether capture image thread must be terminated
+bool retrieve_end_camera_thread(void);
 
 
 #endif /* ROBOTMVMTS_H_ */

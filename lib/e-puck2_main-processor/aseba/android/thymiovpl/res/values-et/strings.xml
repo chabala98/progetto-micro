@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="ministro_not_found_msg">Ei suuda leida Ministro teenust.\nProgrammi ei saa käivitada.</string>
-    <string name="ministro_needed_msg">See programm vajab Ministro teenust.\nKas soovite paigaldada?</string>
-    <string name="fatal_error_msg">Programmiga juhtus fataalne viga.\nKahjuks ei saa jätkata.</string>
+	<string name="ministro_not_found_msg">Ei suuda leida Ministro teenust.\nProgrammi ei saa
+		käivitada.</string>
+	<string name="ministro_needed_msg">See programm vajab Ministro teenust.\nKas soovite
+		paigaldada?</string>
+	<string name="fatal_error_msg">Programmiga juhtus fataalne viga.\nKahjuks ei saa
+		jätkata.</string>
 </resources>

@@ -24,6 +24,7 @@ static Robot robot;
 static Goal goals[NB_GOALS];
 static Position desired_position;
 static float desired_goal_orientation;
+static bool end_camera_thread = false;
 
 //input:	number of times that the TOF repeats the measure (nbr_of_measures)
 //output: the average value of the different TOF measures [mm](dist)
@@ -474,6 +475,7 @@ static THD_FUNCTION(GoingtoGoals, arg) {
     desired_position.x = robot.position.x;
     desired_position.y = robot.position.y;
     desired_goal_orientation = robot.orientation;
+    end_camera_thread = true;
     chThdSleepMilliseconds(500);
     while(1){
     		if(robot.position.x != desired_position.x || robot.position.y != desired_position.y)
@@ -496,6 +498,9 @@ void robotmvmts_start(void){
 	chThdCreateStatic(waGoingtoGoals, sizeof(waGoingtoGoals), NORMALPRIO, GoingtoGoals, NULL);
 }
 
+bool retrieve_end_camera_thread(void){
+	return end_camera_thread;
+}
 
 
 

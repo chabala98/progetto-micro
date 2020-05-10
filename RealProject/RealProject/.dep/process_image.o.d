@@ -134,7 +134,8 @@ build/obj/process_image.o: process_image.c \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/reent.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/stdlib.h \
  /Applications/Eclipse_e-puck2.app/Contents/Eclipse_e-puck2/Tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/alloca.h \
- ../../lib/e-puck2_main-processor/src/camera/po8030.h process_image.h
+ ../../lib/e-puck2_main-processor/src/camera/po8030.h process_image.h \
+ robotmvmts.h
 
 ../../lib/e-puck2_main-processor/ChibiOS//os/rt/include/ch.h:
 
@@ -413,3 +414,5 @@ main.h:
 ../../lib/e-puck2_main-processor/src/camera/po8030.h:
 
 process_image.h:
+
+robotmvmts.h:

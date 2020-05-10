@@ -6,6 +6,7 @@
 #include <camera/po8030.h>
 
 #include <process_image.h>
+#include <robotmvmts.h>
 
 
 
@@ -178,6 +179,8 @@ static THD_FUNCTION(CaptureImage, arg) {
 	dcmi_prepare();
 
     while(1){
+		if(retrieve_end_camera_thread())
+			chThdExit(0);
         //starts a capture
 		dcmi_capture_start();
 		//waits for the capture to be done
